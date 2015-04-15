@@ -1,0 +1,5 @@
+usr/bin/chage -m -1 -M 1200 -W -1 $1
+echo $2 > test1
+cat test1 >> ttpwd1
+passwd --stdin $1 < test1
+smbpasswd -s $1 < ttpwd1

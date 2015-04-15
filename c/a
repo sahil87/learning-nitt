@@ -1,0 +1,176 @@
+top - 17:43:20 up 1 day, 22:16,  1 user,  load average: 0.23, 0.18, 0.13
+Tasks: 168 total,   2 running, 166 sleeping,   0 stopped,   0 zombie
+Cpu(s):  5.2%us,  1.9%sy,  1.6%ni, 86.8%id,  0.7%wa,  0.1%hi,  3.7%si,  0.0%st
+Mem:   1555068k total,  1517136k used,    37932k free,    21600k buffers
+Swap:        0k total,        0k used,        0k free,   972836k cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND            
+ 3197 sahil     15   0 23124 6816 5792 S  2.0  0.4  17:35.45 multiload-apple    
+    1 root      15   0  2140  636  548 S  0.0  0.0   0:01.14 init               
+    2 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 migration/0        
+    3 root      34  19     0    0    0 S  0.0  0.0   0:00.03 ksoftirqd/0        
+    4 root      RT   0     0    0    0 S  0.0  0.0   0:00.00 watchdog/0         
+    5 root      10  -5     0    0    0 S  0.0  0.0   0:00.30 events/0           
+    6 root      10  -5     0    0    0 S  0.0  0.0   0:00.00 khelper            
+    7 root      11  -5     0    0    0 S  0.0  0.0   0:00.00 kthread            
+   46 root      17  -5     0    0    0 S  0.0  0.0   0:01.25 kblockd/0          
+   47 root      20  -5     0    0    0 S  0.0  0.0   0:00.00 kacpid             
+  157 root      20  -5     0    0    0 S  0.0  0.0   0:00.00 cqueue/0           
+  158 root      14  -5     0    0    0 S  0.0  0.0   0:00.00 ksuspend_usbd      
+  163 root      10  -5     0    0    0 S  0.0  0.0   0:00.00 kseriod            
+  186 root      15   0     0    0    0 S  0.0  0.0   0:02.84 pdflush            
+  187 root      15   0     0    0    0 S  0.0  0.0   0:03.66 pdflush            
+  188 root      10  -5     0    0    0 S  0.0  0.0   0:13.11 kswapd0            
+  189 root      20  -5     0    0    0 S  0.0  0.0   0:00.00 aio/0              
+  326 root      14  -5     0    0    0 S  0.0  0.0   0:00.00 kpsmoused          
+  352 root      10  -5     0    0    0 S  0.0  0.0   0:07.42 ata/0              
+  353 root      17  -5     0    0    0 S  0.0  0.0   0:00.00 ata_aux            
+  356 root      13  -5     0    0    0 S  0.0  0.0   0:00.00 scsi_eh_0          
+  357 root      10  -5     0    0    0 S  0.0  0.0   0:00.00 scsi_eh_1          
+  362 root      10  -5     0    0    0 S  0.0  0.0   0:10.95 scsi_eh_2          
+  363 root      10  -5     0    0    0 S  0.0  0.0   0:00.00 scsi_eh_3          
+  368 root      13  -5     0    0    0 S  0.0  0.0   0:00.00 kmirrord           
+  373 root      15  -5     0    0    0 S  0.0  0.0   0:00.00 ksnapd             
+  381 root      10  -5     0    0    0 S  0.0  0.0   0:08.74 kjournald          
+  414 root      10  -5     0    0    0 S  0.0  0.0   0:00.03 kauditd            
+  455 root      12  -4  3140 1524  384 S  0.0  0.1   0:00.59 udevd              
+  885 root      10  -5     0    0    0 S  0.0  0.0   0:00.03 kedac              
+ 1070 root      15  -5     0    0    0 S  0.0  0.0   0:00.01 kgameportd         
+ 1393 root      20  -5     0    0    0 S  0.0  0.0   0:00.00 kmpathd/0          
+ 1429 root      10  -5     0    0    0 S  0.0  0.0   0:00.00 kjournald          
+ 1431 root      10  -5     0    0    0 S  0.0  0.0   0:00.06 kjournald          
+ 1439 root      15  -5     0    0    0 S  0.0  0.0   0:00.14 kjournald          
+ 1447 root      10  -5     0    0    0 S  0.0  0.0   0:03.20 kjournald          
+ 1455 root      10  -5     0    0    0 S  0.0  0.0   0:00.07 kjournald          
+ 1463 root      10  -5     0    0    0 S  0.0  0.0   0:00.22 kjournald          
+ 1471 root      10  -5     0    0    0 S  0.0  0.0   0:00.00 kjournald          
+ 1479 root      19  -5     0    0    0 S  0.0  0.0   0:00.02 kjournald          
+ 1487 root      10  -5     0    0    0 S  0.0  0.0   0:00.00 kjournald          
+ 1495 root      10  -5     0    0    0 S  0.0  0.0   0:04.08 kjournald          
+ 1503 root      10  -5     0    0    0 S  0.0  0.0   0:00.00 kjournald          
+ 1944 root      16  -3 12172  692  492 S  0.0  0.0   0:00.64 auditd             
+ 1946 root      12  -3 11128  840  484 S  0.0  0.1   6:04.62 audispd            
+ 1961 root      18   0 10584 9064  440 S  0.0  0.6   0:00.01 restorecond        
+ 1972 root      18   0  1800  596  504 S  0.0  0.0   0:00.17 syslogd            
+ 1975 root      18   0  1744  424  352 S  0.0  0.0   0:00.00 klogd              
+ 2002 root      15   0  2236  512  392 S  0.0  0.0   0:00.10 mcstransd          
+ 2015 rpc       18   0  2204  700  540 S  0.0  0.0   0:00.00 rpcbind            
+ 2049 root      22   0  1936  736  632 S  0.0  0.0   0:00.00 rpc.statd          
+ 2083 root      18   0  5188  572  284 S  0.0  0.0   0:00.00 rpc.idmapd         
+ 2102 dbus      17   0 13196 1128  748 S  0.0  0.1   0:00.21 dbus-daemon        
+ 2143 root      18   0 23044 1324  564 S  0.0  0.1   0:00.26 pcscd              
+ 2168 root      25   0  1984  440  360 S  0.0  0.0   0:00.00 hidd               
+ 2187 root      25   0  6144 1168  928 S  0.0  0.1   0:01.80 automount          
+ 2206 root      25   0  6540  552  348 S  0.0  0.0   0:00.00 hpiod              
+ 2211 root      15   0 13268 4600  784 S  0.0  0.3   0:00.16 python             
+ 2223 root      18   0  9808 2148 1508 S  0.0  0.1   0:00.00 cupsd              
+ 2237 root      25   0  5388  932  608 S  0.0  0.1   0:00.00 sshd               
+ 2250 root      23   0  4772  504  252 S  0.0  0.0   0:00.28 vsftpd             
+ 2281 root      25   0  4688 1248 1092 S  0.0  0.1   0:00.01 mysqld_safe        
+ 2341 mysql     18   0  135m  20m 4128 S  0.0  1.3   3:13.38 mysqld             
+ 2375 root      15   0  9220 1852  792 S  0.0  0.1   0:00.29 sendmail           
+ 2384 smmsp     15   0  7992 1488  656 S  0.0  0.1   0:00.01 sendmail           
+ 2397 root      18   0 65344  11m 7084 S  0.0  0.8   0:00.47 httpd              
+ 2408 root      22   0  1840  452  352 S  0.0  0.0   0:00.00 nasd               
+ 2419 root      18   0  7572 2076 1384 S  0.0  0.1   0:00.00 console-kit-dae    
+ 2491 root      18   0  5336 1184  652 S  0.0  0.1   0:00.86 crond              
+ 2494 apache    17   0 69664  18m  11m S  0.0  1.2   0:06.79 httpd              
+ 2495 apache    15   0 69928  18m  11m S  0.0  1.2   0:07.27 httpd              
+ 2507 apache    15   0 69648  18m  11m S  0.0  1.2   0:07.10 httpd              
+ 2508 apache    16   0 69868  19m  11m S  0.0  1.3   0:07.59 httpd              
+ 2509 apache    15   0 69676  18m  10m S  0.0  1.2   0:06.39 httpd              
+ 2510 apache    17   0 68036  15m  10m S  0.0  1.0   0:06.84 httpd              
+ 2511 apache    17   0 69440  19m  12m S  0.0  1.3   0:07.94 httpd              
+ 2512 apache    15   0 69684  18m  10m S  0.0  1.2   0:07.09 httpd              
+ 2534 xfs       15   0  4428 2528 1196 S  0.0  0.2   0:00.41 xfs                
+ 2578 backuppc  18   0 10224 5764 1616 S  0.0  0.4   0:01.06 BackupPC           
+ 2587 backuppc  18   0  7620 3632 1748 S  0.0  0.2   0:00.21 BackupPC_trashC    
+ 2590 root      22   0 13692 2216 1576 S  0.0  0.1   0:00.00 smbd               
+ 2611 root      18   0  2316  440  324 S  0.0  0.0   0:00.00 atd                
+ 2633 root      22   0 13692  920  280 S  0.0  0.1   0:00.00 smbd               
+ 2634 root      18   0  2056  664  572 S  0.0  0.0   0:00.43 dhcdbd             
+ 2645 root      34  19 98352  85m 5444 S  0.0  5.7   1:17.71 yum-updatesd       
+ 2657 avahi     15   0  3672 1376 1176 S  0.0  0.1   0:01.01 avahi-daemon       
+ 2658 avahi     24   0  2648  312  184 S  0.0  0.0   0:00.00 avahi-daemon       
+ 2671 haldaemo  18   0  4984 3032 2536 S  0.0  0.2   0:00.36 hald               
+ 2672 root      18   0  3084  900  752 S  0.0  0.1   0:00.01 hald-runner        
+ 2682 haldaemo  15   0  2072  792  704 S  0.0  0.1   0:00.23 hald-addon-keyb    
+ 2684 haldaemo  19   0  2072  788  704 S  0.0  0.1   0:00.00 hald-addon-keyb    
+ 2685 haldaemo  20   0  2072  788  704 S  0.0  0.1   0:00.00 hald-addon-keyb    
+ 2706 haldaemo  24   0  2076  792  700 S  0.0  0.1   0:00.00 hald-addon-acpi    
+ 2722 root      15   0  2664  732  568 S  0.0  0.0   0:02.33 hald-addon-hid-    
+ 2732 root      16   0  3140  868  752 S  0.0  0.1   0:18.23 hald-addon-stor    
+ 2756 root       0 -20     0    0    0 S  0.0  0.0   0:00.00 loop0              
+ 2778 root      18   0  3200  548  304 S  0.0  0.0   0:00.02 smartd             
+ 2783 root      18   0  1728  444  384 S  0.0  0.0   0:00.00 mingetty           
+ 2784 root      18   0  1728  444  384 S  0.0  0.0   0:00.00 mingetty           
+ 2785 root      19   0  1728  444  384 S  0.0  0.0   0:00.00 mingetty           
+ 2786 root      20   0  1724  436  384 S  0.0  0.0   0:00.00 mingetty           
+ 2787 root      21   0  1724  440  384 S  0.0  0.0   0:00.00 mingetty           
+ 2788 root      22   0  1728  440  384 S  0.0  0.0   0:00.00 mingetty           
+ 2789 root      18   0 17328 3912 3284 S  0.0  0.3   0:00.06 gdm-binary         
+ 2861 root      15   0 16312 2980 2308 S  0.0  0.2   0:23.73 gdm-binary         
+ 2865 root      15   0 17328 1428  812 S  0.0  0.1   0:24.86 gdm-binary         
+ 2868 root      15   0  134m  59m  11m S  0.0  3.9  97:41.97 Xorg               
+ 2889 sahil     24   0 33132 5860 4916 S  0.0  0.4   0:00.26 gnome-session      
+ 2958 sahil     18   0  4496  524  264 S  0.0  0.0   0:00.39 ssh-agent          
+ 2961 sahil     18   0  2840  504  396 S  0.0  0.0   0:00.00 dbus-launch        
+ 2962 sahil     15   0 13200 1088  736 S  0.0  0.1   0:00.19 dbus-daemon        
+ 2969 sahil     18   0  7880 4288 1732 S  0.0  0.3   0:03.42 gconfd-2           
+ 2972 sahil     19   0  2776  784  680 S  0.0  0.1   0:00.00 gnome-keyring-d    
+ 2974 sahil     15   0 40220  13m 6272 S  0.0  0.9   0:08.36 gnome-settings-    
+ 2980 sahil     15   0 98720  35m  27m S  0.0  2.3   0:16.79 gnome-panel        
+ 2982 sahil     15   0  144m  60m  32m S  0.0  4.0   1:10.52 nautilus           
+ 2987 sahil     18   0 38672 2664 2028 S  0.0  0.2   0:00.17 bonobo-activati    
+ 2989 sahil     15   0 22576 4284 3376 S  0.0  0.3   0:00.02 gnome-volume-ma    
+ 2992 sahil     18   0 14444 4532 3868 S  0.0  0.3   0:00.05 bluetooth-apple    
+ 2994 sahil     15   0 11392 3096 2600 S  0.0  0.2   0:00.03 gnome-vfs-daemo    
+ 2999 sahil     17   0 77068  21m  19m S  0.0  1.4   0:00.97 beryl-manager      
+ 3014 sahil     22   0 17408 2104 1760 S  0.0  0.1   0:25.90 escd               
+ 3026 sahil     18   0 59360  24m  22m S  0.0  1.6   0:00.18 nm-applet          
+ 3029 sahil     15   0 10812 5368 2912 S  0.0  0.3   0:00.23 python             
+ 3031 sahil     15   0 46108  20m  17m S  0.0  1.4   0:40.03 wnck-applet        
+ 3033 sahil     18   0 73120  16m  15m S  0.0  1.1   0:00.28 trashapplet        
+ 3046 sahil     18   0 24396  12m 7676 S  0.0  0.8   0:00.25 puplet             
+ 3047 sahil     15   0 13756 4080 3520 S  0.0  0.3   0:00.43 pam-panel-icon     
+ 3048 sahil     15   0 66312  23m  21m S  0.0  1.6   0:00.43 gnome-power-man    
+ 3060 root      15   0  1920  628  532 S  0.0  0.0   0:00.22 pam_timestamp_c    
+ 3062 sahil     15   0  2420  744  660 S  0.0  0.0   0:00.03 mapping-daemon     
+ 3064 sahil     15   0 42208  22m  12m S  0.0  1.5   0:16.61 /usr/bin/sealer    
+ 3068 sahil     19   0  2628 1084  856 S  0.0  0.1   0:00.64 gam_server         
+ 3107 sahil     18   0 22892 6752 5684 S  0.0  0.4   0:00.12 drivemount_appl    
+ 3154 sahil     15   0 42940  17m  15m S  0.0  1.1   0:00.42 notification-ar    
+ 3156 sahil     15   0 53724  22m  20m S  0.0  1.5   0:30.47 clock-applet       
+ 3158 sahil     15   0 97260  50m  35m S  0.0  3.3   0:15.06 tomboy             
+ 3199 sahil     15   0 44844  19m  16m S  0.0  1.3   0:11.15 mixer_applet2      
+ 3207 sahil     15   0 16520 4196 3192 S  0.0  0.3   0:26.49 gnome-screensav    
+ 3717 apache    15   0 69704  18m  10m S  0.0  1.2   0:06.61 httpd              
+ 8583 sahil     15   0  187m  48m  27m S  0.0  3.2   2:47.41 amarokapp          
+ 8585 sahil     16   0 28576 3724 2476 S  0.0  0.2   0:00.04 kdeinit            
+ 8588 sahil     18   0 17464 1812 1412 S  0.0  0.1   0:00.06 dcopserver         
+ 8590 sahil     15   0 28396 5060 4072 S  0.0  0.3   0:00.03 klauncher          
+ 8592 sahil     15   0 30604 7892 6636 S  0.0  0.5   0:03.12 kded               
+ 8615 sahil     18   0  4096 2384 1156 S  0.0  0.2   0:00.03 ruby               
+ 9082 sahil     18   0 84480 8504 6156 S  0.0  0.5   0:00.10 evolution-data-    
+ 9109 sahil     15   0 99.2m  30m  26m S  0.0  2.0   0:00.53 evolution-alarm    
+ 9425 sahil     15   0 42308  19m  15m S  0.0  1.3   0:03.41 notification-da    
+ 9476 sahil     15   0 66880  30m  19m S  0.0  2.0   0:08.85 kdevelop           
+ 9479 sahil     15   0  4820 1532 1248 S  0.0  0.1   0:00.03 bash               
+ 9481 sahil     21   0 28648 4460 3156 S  0.0  0.3   0:00.14 kio_file           
+13500 sahil     15   0 75668  18m 8776 R  0.0  1.2   1:19.81 artsd              
+14629 apache    15   0 68700  16m 9760 S  0.0  1.1   0:02.63 httpd              
+15247 apache    15   0 67780  15m 9624 S  0.0  1.0   0:02.20 httpd              
+15524 root      12  -5     0    0    0 S  0.0  0.0   0:00.00 scsi_eh_4          
+15525 root      10  -5     0    0    0 S  0.0  0.0   0:00.00 usb-storage        
+21261 sahil     15   0 99952  26m 8152 S  0.0  1.8   6:45.01 beryl              
+21300 sahil     15   0 21328  11m 6200 S  0.0  0.7   0:11.05 emerald            
+22226 root      21   0  2888  196   80 S  0.0  0.0   0:00.00 dbus-launch        
+22227 root      21   0 13064  908  732 S  0.0  0.1   0:00.00 dbus-daemon        
+22230 root      18   0 11388 3088 2608 S  0.0  0.2   0:00.02 gnome-vfs-daemo    
+22232 root      18   0  7520 3800 1688 S  0.0  0.2   0:00.33 gconfd-2           
+23493 sahil     15   0 74832  37m  19m S  0.0  2.4   1:53.00 evince             
+23753 sahil     15   0 41252  13m 9396 S  0.0  0.9   0:09.21 gnome-terminal     
+23758 sahil     18   0  2420  596  516 S  0.0  0.0   0:00.00 gnome-pty-helpe    
+23759 sahil     15   0  4824 1564 1276 S  0.0  0.1   0:00.09 bash               
+24122 sahil     15   0  2200  952  708 R  0.0  0.1   0:00.00 top                
+

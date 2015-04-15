@@ -1,0 +1,12 @@
+#include <curses.h>//includes stdio.h
+#include <iostream>
+int main(void)
+{
+        initscr();
+        printw("Press any key.");
+        int a=getch();
+        cout << a;
+        getch();
+        endwin();
+        return 0;
+}

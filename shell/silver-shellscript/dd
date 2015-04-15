@@ -1,0 +1,11 @@
+#! /bin/bash
+cd /ug/exam
+for name in u*
+do
+echo $name
+cd $name/
+rm -rf *
+rm -rf .*
+pwd
+cd ..
+done

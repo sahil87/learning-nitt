@@ -1,0 +1,123 @@
+csa0302  20767     1 99 14:54 ?        02:07:48 /pg/cse/csa0302/final/sys3
+csa0302  20768 20767  0 14:54 ?        00:00:00 /pg/cse/csa0302/final/sys3
+csa0302  20934     1  0 14:57 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  20962     1  0 14:57 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  20976     1  0 14:57 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  20986     1  0 14:57 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  20997     1  0 14:57 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  21007     1  0 14:57 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  21017     1  0 14:57 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  21125     1  0 14:57 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  21352     1  0 14:58 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22017     1  0 15:06 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22528     1  0 15:11 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22743     1  0 15:12 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22834     1  0 15:13 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22837     1  0 15:13 ?        00:00:00 kioslave /usr/lib/kde3/kio_file.la file  /tmp/ksocket-csa0302/konquerorWZewba.slave-socket
+csa0302  22846     1  0 15:13 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22854     1  0 15:13 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22863     1  0 15:13 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22871     1  0 15:13 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22879     1  0 15:13 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22887     1  0 15:13 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22895     1  0 15:13 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22903     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22912     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22934     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22943     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22951     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22959     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22967     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22975     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22983     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22991     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  22999     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  23007     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  23015     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  23024     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  23032     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  23041     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  23049     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  23057     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  23066     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  23074     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  23082     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  23090     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  23098     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  23108     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  23116     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  23124     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  23132     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  23140     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  23148     1  0 15:14 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  23452     1  0 15:24 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24034     1  0 15:34 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24049     1  0 15:34 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24054     1  0 15:35 ?        00:00:00 kioslave /usr/lib/kde3/kio_file.la file  /tmp/ksocket-csa0302/konquerory4wIha.slave-socket
+csa0302  24060     1  0 15:35 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24068     1  0 15:35 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24073     1  0 15:35 ?        00:00:00 kioslave /usr/lib/kde3/kio_file.la file  /tmp/ksocket-csa0302/konqueror6kGtya.slave-socket
+csa0302  24074     1  0 15:35 ?        00:00:00 kioslave /usr/lib/kde3/kio_file.la file  /tmp/ksocket-csa0302/konquerorxxCjda.slave-socket
+csa0302  24075     1  0 15:35 ?        00:00:00 kioslave /usr/lib/kde3/kio_file.la file  /tmp/ksocket-csa0302/konquerorG9oebc.slave-socket
+csa0302  24084     1  0 15:35 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24092     1  0 15:35 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24100     1  0 15:35 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24110     1  0 15:36 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24113     1  0 15:36 ?        00:00:00 kioslave /usr/lib/kde3/kio_file.la file  /tmp/ksocket-csa0302/konquerorFUXNXb.slave-socket
+csa0302  24119     1  0 15:36 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24127     1  0 15:36 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24135     1  0 15:36 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24143     1  0 15:36 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24152     1  0 15:36 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24160     1  0 15:36 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24168     1  0 15:36 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24177     1  0 15:36 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24185     1  0 15:36 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24194     1  0 15:37 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24202     1  0 15:37 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24210     1  0 15:37 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24218     1  0 15:37 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24226     1  0 15:37 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24359     1  0 15:39 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24670     1  0 15:40 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  24980     1  0 15:43 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  25190     1  0 15:43 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  25404     1  0 15:47 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  25834     1  0 15:48 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  26147     1  0 15:49 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  26674     1  0 15:50 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  26910     1  0 15:51 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  26913     1  0 15:51 ?        00:00:00 kioslave /usr/lib/kde3/kio_file.la file  /tmp/ksocket-csa0302/konqueror0UTSPb.slave-socket
+csa0302  26919     1  0 15:51 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  26927     1  0 15:51 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  26935     1  0 15:51 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  26943     1  0 15:51 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  26951     1  0 15:51 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  26959     1  0 15:51 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  26967     1  0 15:51 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  26975     1  0 15:51 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  26988     1  0 15:53 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  26997     1  0 15:53 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  27006     1  0 15:53 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  27015     1  0 15:53 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  27024     1  0 15:53 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  27033     1  0 15:53 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  27248     1  0 15:56 ?        00:00:00 ./sys1
+root     29763 29762  0 16:41 ?        00:00:00 login -- csa0302           
+csa0302  29764 29763  0 16:41 pts/22   00:00:00 -bash
+csa0302  30486 30478  0 16:58 ?        00:00:00 /usr/bin/gnome-session
+csa0302  30531 30486  0 16:58 ?        00:00:00 /usr/bin/ssh-agent /etc/X11/xinit/Xclients
+csa0302  30536     1  0 16:58 ?        00:00:00 /usr/libexec/gconfd-2 11
+csa0302  30538     1  0 16:58 ?        00:00:00 /usr/libexec/bonobo-activation-server --ac-activate --ior-output-fd=16
+csa0302  30540     1  0 16:58 ?        00:00:00 gnome-settings-daemon --oaf-activate-iid=OAFIID:GNOME_SettingsDaemon --oaf-ior-fd=14
+csa0302  30549     1  0 16:58 ?        00:00:00 xscreensaver -nosplash
+csa0302  30552     1  0 16:58 ?        00:00:00 metacity --sm-save-file 1102002600-2754-2582958054.ms
+csa0302  30554     1  0 16:58 ?        00:00:00 magicdev --sm-config-prefix /magicdev-E0mvSj/ --sm-client-id 11b201010f000106395339500000043840003 --screen 0
+csa0302  30556     1  0 16:58 ?        00:00:01 nautilus --sm-config-prefix /nautilus-OtokPZ/ --sm-client-id 11b201010f000106395339500000043840002 --screen 0 file:///pg/cse/csa0302/gtk/tutorial file:///pg/cse/csa0302/project
+csa0302  30558     1  0 16:58 ?        00:00:01 gnome-panel --sm-config-prefix /gnome-panel-cigQ2W/ --sm-client-id 11b201010f000106395339500000043840001 --screen 0 --profile default
+csa0302  30572     1  0 16:58 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  30719     1  0 16:58 ?        00:00:00 /usr/libexec/notification-area-applet --oaf-activate-iid=OAFIID:GNOME_NotificationAreaApplet_Factory --oaf-ior-fd=24
+csa0302  30769     1  0 16:59 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  30788     1  0 17:00 ?        00:00:00 kdeinit: dcopserver --nosid --suicide
+csa0302  30803     1  0 17:00 ?        00:00:00 /usr/bin/pam-panel-icon --sm-client-id 11b201010f000106395339700000043840005
+root     30826  1258  0 17:03 pts/1    00:00:00 grep csa0302

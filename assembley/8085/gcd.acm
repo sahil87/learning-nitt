@@ -1,0 +1,28 @@
+
+;<Program title>
+;org 4100h
+		jmp start
+;data
+
+first:	db 25
+second:	db 20
+ANSWER: ds 1
+start:	LDA first
+	MOV B,A
+	LDA second
+	MOV C,A
+LOOP:	MOV A,B
+	CMP C
+	JZ DONE
+	JC CGREATER
+	SUB C
+	MOV B,A
+	JMP LOOP
+CGREATER:	SUB C
+	CMA
+	ADI 01H
+	MOV C,A
+	jmp LOOP
+DONE:	STA ANSWER
+	HLT
+	

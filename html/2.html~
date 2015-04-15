@@ -1,0 +1,135 @@
+<!--My second Html file--> 
+<HTML>
+<!--<BGSOUND SRC="d3theme.mp3" LOOP = 2>-->
+<HEAD><TITLE>Ladies and gentlemen, this is my second html file.. 
+so i am unable to keep myself from keeping a small title ;)</TITLE>
+<META name = "description" content = "My secont HTML file to teach me HTML writtrn in HTML"
+<META name = "keywords" content = "idoit,html,non-sense">
+<META name = "author" content = "Sahil Ahuja">
+<META name = "rating" content = "mature"><!-- HA haaaaaaa-->
+</HEAD>
+
+<BODY TEXT="blue" BACKGROUND="swirlies.gif" LINK="pink" VLINK="green" ALINK="purple">
+	<ADDRESS>Sahil Ahuja<br>NIT Trichy</ADDRESS>
+	<A NAME="pagestart"></A>
+	
+	<H1 ALIGN="CENTER" ID="heading">MY <EM>2nd</EM> page...</H1>
+	<HR WIDTH=220 COLOR="blue" SIZE=4>
+	
+	<FONT FACE = "trebuchet ms" COLOR = "black">
+	<DIV ALIGN = "center"><!--DIV used to align any division of the text.. only one attribute namely ALIGN-->
+	<FONT SIZE=6>H</FONT><FONT SIZE=5>I</FONT> <FONT SIZE=4>D</FONT>A <BR>
+	<EM> I really missed u guys..... really </EM>	
+	</DIV>
+	</FONT>
+	
+	<BR><IMG SRC="..\gaga.gif" HEIGHT=212 WIDTH=230>
+	<OL>
+	<FONT COLOR = "black">
+	<LI><P ID="fonts">Anyway.. let me tell you about the various fonts available in HTML... some <STRONG>really</STRONG> good one's are -
+	<OL>
+	<FONT FACE = "times new roman"><LI>Times New Roman</FONT>
+	<FONT FACE = "georgia"><LI>Georgia</FONT>
+	<FONT FACE = "trebuchet ms"><LI>Terbuchet ms</FONT>
+	<FONT FACE = "verdana"><LI>Verdana</FONT>
+	<FONT FACE = "comic sans ms"><LI>Comic Sans ms</FONT>
+	<FONT FACE = "courier new"><LI>Courier New</FONT>
+	<FONT FACE = "impact"><LI>Impact</FONT>
+	<FONT FACE = "arial black"><LI>Arial Black</FONT>
+	</FONT>
+	</OL>
+	
+	<BR>
+	<LI>And also i wanted to tell u about
+	<UL>indenting in html
+	<UL>its not usual u see....
+	</UL></UL>
+	
+	<BR>
+	<LI><FONT FACE="Verdana" COLOR="purple">Here is how we set links in images -</FONT>
+	<MAP NAME="mymap">
+	<AREA SHAPE="rect" COORDS="12,16,79,43" HREF="#heading" TARGET="_blank">
+	<AREA SHAPE="circle" COORDS="148,35,24" HREF="#fonts" TARGET="Same window">
+	<AREA SHAPE="poly" COORDS="240,11,276,5,316,26,283,58,221,49,240,11" HREF="1.html" TARGET = "Same window">
+	</MAP>
+	<IMG SRC="imageformap.jpg" USEMAP="#mymap" VSPACE=10 HSPACE=5 BORDER=0 ALIGN = texttop ALT="My image gets displayed here">
+	<BR CLEAR=all>
+	<P>
+	<BR>
+	<LI>Here's the doom3 theme-
+	<OL TYPE = 'a'>
+	<LI>	<A HREF = "d3theme.mp3" TARGET="_blank">Play in a new window</A>
+	<LI>	<EMBED SRC = "d3theme.mp3" HIDDEN = "false" AUTOSTART="false" CONTROLS="console" 
+		HEIGHT=18 WIDTH=200>Or embed it</EMBED>
+	</OL>
+	<P>
+	<BR>
+	<LI>Here are some <EM><STRONG>cute</STRONG></EM> text effects -
+	<FONT FACE = "trebuchet ms" color = "black"><BR>
+	<MARQUEE DIRECTION = "right" WIDTH = 300>Marquee effect 1 (scroll - default)</MARQUEE>
+	<MARQUEE BEHAVIOR="slide" SCROLLDELAY=1 SCROLLAMOUNT=30>Marquee effect 2 - slide</MARQUEE>
+	<MARQUEE BEHAVIOR="alternate" LOOP=5 BGCOLOR="white" WIDTH=500 ALIGN = CENTRE>Marquee effect 3 - alternate</MARQUEE>
+	</FONT>
+	</OL>
+	
+	<P ALIGN="LEFT"><FONT FACE=" trebuchet ms,impact,georgia,courier new,verdana,arial black,arial,times new roman,comic sans ms,">
+	Someone please Help me!!!</FONT></P>
+	<!-- &nbsp is the non breaking space entity to add spaces-->
+	<CENTER>Aliens &nbsp&nbsp;&nbsp;&lt;&gt;&amp;&quot;&shy;have captured my ship and im unable to go for a holiday to j
+upiter...</CENTER><!--to show that line-break gets converted into a space-->
+	
+	<HR WIDTH=100 ALIGN="LEFT">
+	
+	<DL>
+	<DT>(<B>Aliens</B>
+	<DD>Anything inhuman. Eg:girls,w<IMG SRC="jokesmile.gif">
+	<IMG SRC="jokesmile.gif" HEIGHT=21 WIDTH=21><FONT SIZE=4>m</FONT><FONT SIZE=2>e</FONT><FONT SIZE=1>n</FONT>,ladies etc.)
+	</DL>
+	<BR><Q>To be, or not to be</Q><!-- Q for quotes--> :quotes are displayed differently in different browsers.
+	
+	<HR ALIGN="LEFT">
+	
+	<UL TYPE = circle>
+	<LI>This makes me crazy
+	<LI TYPE = disc>I am going mad
+	<LI TYPE = square>It's making me insane
+	</UL>
+	So...
+	<OL START = 4 TYPE = i> <!-- other types are i,I,a,A,1-->
+	<LI>I will murder him
+	<LI>then make him eat poison
+	<LI>then kill him
+	</OL>
+	
+	<BLOCKQUOTE><P>This to test this <CITE><FONT SIZE=+1>idiotic tag named blockquote... </FONT></CITE><!--CITE Denotes a citation
+	-a reference to another document, especially books, magazines,articles, etc. generally display citations in italic.-->
+	(i <EM>cited</EM><!--EM for emphasize--> the text blockquote) I have no idea WHAT it is ... I think i ll find out 
+	once i save this text in blockquote tags.. and display it on my internet explorer.
+	<P><KBD>I havent also used these blockquotes to display various other font features because some tags behaves strangely
+	in blockquots... by the way this is keyboard tag...
+	also ever wondered how u type H<SUB>2</SUB>O in HTML<SUP>D</SUP>?</KBD></BLOCKQUOTE>
+	
+	<H4>... like displaying code..</H4>
+	<BR><CODE>if(<VAR>i</VAR> = "an idiot")<BR>&nbsp&#009 <!--entity for tab--> <DEL>selfdestuct</DEL>
+	<BR>Code is displayed in monospaced font
+	<BR><INS><NOBR>And the second line displayed in DELeted tags and this is displayed in INSertion tags and this whole thing is in 
+	NOBReak tag which doesnt allow the line to be broken automatically and keeps on displaying
+	text horizontally..<WBR>The reason it broke here is the WBR tag which is a potential break point and causes
+	a line break <WBR>only if the current line already extends beyond the browsers display window margins.</NOBR></INS></CODE>
+	
+	<HR WIDTH=85% SIZE=2 COLOR="blue" NOSHADE><PRE>
+                ///\\___
+                (@ @)
+     +----oOO----(_)-----------+
+         <S>S a H i L  A h U j A</S> COOL!!!        <SMALL>i meant the strikethrough</SMALL>
+	</PRE><!-- SMALL and BIG tags are FONT SIZE -1 and +1 respectively also +1 and -1 are ALWAYS w.r.t. 3-->
+	
+	<P><A HREF="alien.gif">Here is d alien ho</A>
+	
+	<P>Here's his e-mail id(in case you wanna contact that <STRONG>#%&amp;*</STRONG>
+	<A HREF="mailto:forrest@bubbagump.com?subject=Hey Bubba!"><BR><IMG SRC="dance.gif" HEIGHT=80 WIDTH=120 BORDER=0></A>
+	
+	<P>Click <A HREF="#upabit">here</A> to go up...
+	<!-- or full address - <A HREF="My file.html#upabit"> -->
+</BODY>
+</HTML>

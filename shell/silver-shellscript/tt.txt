@@ -1,0 +1,1000 @@
+   35  clear
+   36  df -kh
+   37  arp
+   38  arp
+   39  locate arp
+   40  clear
+   41  df
+   42  finger
+   43  finger caa0611
+   44  exit
+   45  clear
+   46  finger caa0611
+   47  passwd caa0611
+   48  finger
+   49  ls
+   50  df
+   51  netstat -rn
+   52  ifconfig
+   53  who
+   54  exit
+   55  pwd
+   56  cd /var/www/html/
+   57  ls
+   58  vi index.html 
+   59  clear
+   60  passwd cs10507
+   61  exit
+   62  finger
+   63  netstat -taupe
+   64  netstat -taupe
+   65  netstat -taupe
+   66  netstat -taupe |more
+   67  netstat -rs
+   68  netstat -r
+   69  netstat -tav
+   70  nmap
+   71  netstat -tav
+   72  netstat -rn
+   73  netstat -tav
+   74  finger
+   75  clear
+   76  exit
+   77  ls
+   78  passwd caa0612
+   79  df -k
+   80  smbpasswd
+   81  more /etc/hosts.allow 
+   82  exit
+   83  pwd
+   84  ls
+   85  cd /var/www/html/
+   86  ls
+   87  mkdir prod
+   88  cd prod/
+   89  finger pradeep
+   90  finger pradeep |more
+   91  cp /dept/pradeep/UNIT-I.pdf 
+   92  cp /dept/pradeep/UNIT-I.pdf  .
+   93  ls
+   94  ls -l
+   95  mv UNIT-I.pdf Quality_Control.pdf
+   96  exit
+   97  mv BPRE08\ -Assigment-I.pdf /var/www/html/prod/
+   98  cd /var/www/html/prod
+   99  ls
+  100  ls -l
+  101  mv BPRE08\ -Assigment-I.pdf BPRE08-Assigment-I.pdf 
+  102  ls -l
+  103  exit
+  104  top
+  105  finger pradeep
+  106  finger pradeep |more
+  107  cd /dept/pradeep
+  108  mv BPR606-\ QRM-AS-I.pdf /var/www/html/prod/
+  109  finger
+  110  finger |more
+  111  shutdown -r now
+  112  cd ..
+  113  cd /var/www/html/
+  114  mkdir sand
+  115  cd sand
+  116  cp /dept/pradeep/sand/ .
+  117  cp /dept/pradeep/sand/* .
+  118  pwd
+  119  cd /var/www/html/
+  120  mkdir virus
+  121  cd visrus
+  122  cd virus/
+  123  mv /dept/pradeep/20070129-020-i32.exe .
+  124  pwd
+  125  cd ..
+  126  cd sand/
+  127  mv /dept/pradeep/sand/sand.pdf .
+  128  cd
+  129  cd user
+  130  exit
+  131  cd ..
+  132  ls
+  133  pwd
+  134  ls
+  135  pwd
+  136  ls
+  137  cd /var/www/html/
+  138  ls
+  139  vi index.html 
+  140  clear
+  141  exit
+  142  cd /dept/pradeep/
+  143  mv archi/ /var/www/html/arch
+  144  cd /var/www/html/arch
+  145  ls
+  146  cd ..
+  147  ls
+  148  cd arc
+  149  ls
+  150  ls -l
+  151  cd ..
+  152  mv arc old-arc
+  153  clear
+  154  passwd cld0618
+  155  passwd ee10322
+  156  exit
+  157  cd /var/www/html/prod
+  158  ls
+  159  cd ..
+  160  ls
+  161  mkdir others
+  162  cd others/
+  163  cp /dept/pradeep/acm*
+  164  cp /dept/pradeep/acm* .
+  165  ls
+  166  cp /dept/pradeep/PLC_pamplet.pdf .
+  167  ls
+  168  exit
+  169  top
+  170  uname -a
+  171  cat /proc/cpuinfo 
+  172   
+  173  passwd cl10440
+  174  cd /proc/
+  175  s
+  176  more cpuinfo
+  177  clear
+  178  exit
+  179  passwd cs10414
+  180  passwd me10438
+  181  passwd ar10407
+  182  df -h
+  183  exit
+  184  smbpasswd caa0548
+  185  df
+  186  vi /etc/hosts.allow 
+  187  more /etc/sudoers 
+  188  clear
+  189  ping 10.1.0.5
+  190  exit
+  191  clear
+  192  df
+  193  cd /usr
+  194  ls
+  195  cd ..
+  196  ls
+  197  passwd kumanan
+  198    
+  199   
+  200  exit
+  201  pwd
+  202  mv 20070304-025-i32.exe /var/www/html/virus/
+  203  cd /var/www/html/virus/
+  204  ls
+  205  rm -rf 20070129-020-i32.exe 
+  206  ls
+  207  exit
+  208  cd /
+  209  cd etc
+  210  cd security/
+  211  ls
+  212  adduser gene
+  213  vi limits.conf
+  214  quota cs10464
+  215  edquota cs10464
+  216  /usr/sbin/edquota cs10464
+  217  clear
+  218  exit
+  219  ps ef 
+  220  ps aef|grep cv10556
+  221  kill -9 9017
+  222  killall cv10556
+  223  finger
+  224  reboot
+  225  df -k
+  226  ls
+  227  clear
+  228  ls
+  229  exit
+  230  finger f1060001
+  231  delete f10600001
+  232  ./delete f1060001
+  233  finger f1060001
+  234  ./delete f1060001
+  235  cd
+  236  cd
+  237  cd..
+  238  cd ..
+  239  ls
+  240  cd root
+  241  cd ug
+  242  clear
+  243  finger f1060001
+  244  clear
+  245   
+  246  finger
+  247  reboot
+  248  finger f1060001
+  249  df
+  250  cd /ug
+  251  ls
+  252  cd ..
+  253  ./delete f1060061
+  254  cd
+  255  cd user
+  256  ./delete f1060001
+  257  ./delete f1060061
+  258  who
+  259  killall f1060001
+  260  finger
+  261  exit
+  262  cd accounts
+  263  ls
+  264  cd ..
+  265  ls
+  266  cd usr
+  267  ls
+  268  cd dept
+  269  ls
+  270  cd ..
+  271  ls
+  272  cd dept
+  273  ls
+  274  cd ..
+  275  ls
+  276  cd var
+  277  ls
+  278  cd account/
+  279  ls
+  280  cd /
+  281  cd /usr/accounts
+  282  cd /usr/account
+  283  cd usr/account
+  284  cd usr/accounts
+  285  cd root/usr
+  286  cd root
+  287  ls
+  288  cd user
+  289  ls
+  290  more addpg
+  291  more addpg
+  292  exit
+  293  more addpg
+  294  ls
+  295  cd ..
+  296  ls
+  297  cd root/user
+  298  ls
+  299  more addpg
+  300  exit
+  301  ls
+  302  cd root/user
+  303  cd /
+  304  clear
+  305  df
+  306  ls
+  307  cd usr/
+  308  ls
+  309  cd ..
+  310  clear
+  311  df -kh
+  312  cd /usr/
+  313  ls
+  314  cd ..
+  315  clear
+  316  df -kh
+  317  cd /dept/
+  318  ls
+  319  cd ..
+  320  finger
+  321  userdel f10600097
+  322  userdel f1060097
+  323  userdel f1060471
+  324  ./delete f1060471
+  325  finger f1060097
+  326  finger f106097
+  327  finger f1060097
+  328  finger f1060471
+  329  ls
+  330  cd /usr
+  331  cd /usr
+  332  ls
+  333  cd ..
+  334  ls
+  335  cd root/
+  336  ls
+  337  cd user
+  338  ls
+  339  more addug
+  340  more addusg
+  341  more addug
+  342  history
+  343  history |more
+  344  cd /var/www/html/
+  345  ls
+  346  vi index.html 
+  347  ping 10.1.17.33
+  348  ping 10.1.17.5 -t
+  349  ping 10.1.17.5 -T
+  350  ping 10.1.17.5 
+  351  ping 10.1.17.5 
+  352  ping 10.1.17.33
+  353  ping 10.1.17.5 
+  354  ping 10.1.17.33
+  355  ping 10.1.17.33
+  356  ping 10.1.17.5 
+  357  ping 10.1.17.5 
+  358  ping 10.1.17.5 
+  359  ping 10.1.17.5 
+  360  exit
+  361  ls
+  362  cd root/user
+  363  cd /
+  364  clear
+  365  df
+  366  ls
+  367  cd usr/
+  368  ls
+  369  cd ..
+  370  clear
+  371  df -kh
+  372  cd /usr/
+  373  ls
+  374  cd ..
+  375  clear
+  376  df -kh
+  377  cd /dept/
+  378  ls
+  379  cd ..
+  380  finger
+  381  userdel f10600097
+  382  userdel f1060097
+  383  userdel f1060471
+  384  ./delete f1060471
+  385  finger f1060097
+  386  finger f106097
+  387  finger f1060097
+  388  finger f1060471
+  389  ls
+  390  cd /usr
+  391  cd /usr
+  392  ls
+  393  cd ..
+  394  ls
+  395  cd root/
+  396  ls
+  397  cd user
+  398  ls
+  399  more addug
+  400  more addusg
+  401  more addug
+  402  history
+  403  history |more
+  404  097" civ f1060097
+  405  ./addug "1060471" civ f1060471
+  406  ./addug "1060144" chl f1060144
+  407  ./addug "1060422" mec f1060422
+  408  ./addug "1060054" eee f1060054
+  409  ./addug "1060471" eee f1060471
+  410  ./addug "1060234" mec f1060234
+  411  clear
+  412  smbpasswd f1060061
+  413  smbpasswd f1060061
+  414  finger 1060061
+  415  finger f1060061
+  416  finger 1060061
+  417  finger f1060061
+  418  ./smbpasswd f1060061
+  419  smbpasswd f1060061
+  420  more /etc/passwd
+  421  tail -f /etc/passwd
+  422  clear
+  423  df -kh
+  424  clear
+  425  ----------------------------------------------------
+  426   exit
+  427  cd 
+  428  cd user
+  429  ls
+  430  ./addug "Vikneswar G" civ f1060628
+  431  ./pass f1060628
+  432  ./addug "Kalaivannan KP" ece f1060009
+  433  ./pass f1060009
+  434  ./pass caa0502
+  435  ./pass caa0524
+  436  ./pass msa0509
+  437  ./pass f1060505
+  438  finger f10606505
+  439  finger f1060605
+  440  finger f1060
+  441  finger f10
+  442  finger f
+  443  finger 10
+  444  finger f
+  445  ./addug "Arvind K R" pro f1060505
+  446  clear
+  447  cd /etc
+  448  more passwd |grep d41d8cd98f00b204e9800998ecf8427e
+  449  vi passwd
+  450  more shadow |grep d41d8cd98f00b204e9800998ecf8427e
+  451  vi shadow
+  452  pwd
+  453  ls
+  454  exit
+  455  more /etc/passwd
+  456  more /etc/shadow |more ec10462
+  457  more /etc/shadow |grep ec10462
+  458  more /etc/shadow |grep 9800998ecf8427e
+  459  more /etc/shadow |grep 41d8cd98f00b
+  460  more /etc/shadow |grep d41
+  461  more passwd
+  462  more /etc/passwd
+  463  exit
+  464  /usr/sbin/edquota cs10523
+  465  clear
+  466  /usr/sbin/edquota cs10523
+  467  exit
+  468  pwd
+  469  cd 
+  470  ls
+  471  cd user
+  472  ls
+  473  clear
+  474  ./addug
+  475  ./addug "Shantanu Kumar Jha" cse f1060309
+  476  clear
+  477  ./addug "Nikhil Kumar" cse f1060275
+  478  ./addug "Ravi Shankar Prasad" cse f1060019
+  479  clear
+  480  df -h
+  481  ./addug "Vivek Kumar" cse f1060271
+  482  ./pass f1060271
+  483  ./delete f1060061
+  484  ./addug "1060061" civ f1060061
+  485  clear
+  486  ./addug "SAVIO JAMES" mec f1060189
+  487  exit
+  488  finger f1060361
+  489  ./addug "1060361" ice f1060361
+  490  cd
+  491  cd user
+  492  ./addug "1060361" ice f1060361
+  493  clear
+  494    
+  495  date
+  496  last
+  497  last |more
+  498  uptime
+  499  reboot
+  500  df -kh
+  501  cd /ug
+  502  s
+  503  ls
+  504  cd arc/
+  505  ls
+  506  cd ..
+  507  ls
+  508  cd .
+  509  du -h
+  510  cd /
+  511  du -h /ug
+  512  du -h /ug/arc
+  513  clear
+  514  cd /ug
+  515  ls
+  516  cd others/
+  517  s
+  518  ls
+  519  ls -lh
+  520  ls -lh
+  521  cd ..
+  522  ls -lh
+  523  mv recal_backup/ /tmp/
+  524  ls -lh
+  525  df
+  526  df -lh
+  527  cd /tmp
+  528  ls
+  529  ls -lh
+  530  du -h /tmp
+  531  rm -rf /tmp/recal_backup/
+  532  ls
+  533  df -h
+  534  cd /ug
+  535  ls
+  536  ls -lh
+  537  cd recal_backup/
+  538  ls
+  539  cd recal/
+  540  ls
+  541  ls -lh
+  542  cd ..
+  543  cd ..
+  544  tar cvf recal.tar /ug/recal_backup/
+  545  ls -lh
+  546  mv recal.tar /root/
+  547  ls
+  548  rm -rf recal_backup
+  549  ls -lh
+  550  df -kh
+  551  ls -l
+  552  cd move/
+  553  ls
+  554  l
+  555  ls
+  556  cd ..
+  557  ls -lh
+  558  df -h
+  559  cd /home
+  560  ls
+  561  mkdir backup
+  562  ls
+  563  cd /ug
+  564  mv recal.tar /home/backup/
+  565  df -h
+  566  cd /pg
+  567  ls
+  568  ls -lh
+  569  mv www_backup/ /home/backup/
+  570  cd /home
+  571  ls
+  572  ls -lh
+  573  cd backup/
+  574  ls
+  575  rm -rf www_backup/
+  576  ls
+  577  cd ..
+  578  cd /pg
+  579  ls
+  580  cd www_backup/
+  581  ls
+  582  cd www/
+  583  ls
+  584  ls 
+  585  ls -lh
+  586  cd httpd/
+  587  ls
+  588  ls -lh
+  589  cd ..
+  590  cd ..
+  591  cd ..
+  592  cd ..
+  593  tar cvf /home/backup/www.tar /pg/www_backup/
+  594  cd /pg
+  595  ls
+  596  rm -rf www_backup/
+  597  ls
+  598  df -h
+  599  clear
+  600  exit
+  601  finger
+  602  netstat -tav
+  603  netstat -tav
+  604  ls
+  605  cd ..
+  606  ls
+  607  ls -lh
+  608  df  -kh
+  609  cd /home
+  610  ls
+  611  cd rm
+  612  cd ramesh/
+  613  ls
+  614  ls -lh
+  615  cd ..
+  616  ls
+  617  ls -lh
+  618  cd backup/
+  619  ls
+  620  ls -lh
+  621  df -kh
+  622  cd /home
+  623  ls
+  624  cd backup/
+  625  ls
+  626  rm -rf www.tar 
+  627  df -kh
+  628  exit
+  629  passwd caa0654
+  630  top
+  631  clear
+  632   
+  633  exit
+  634  cd
+  635  cd user
+  636  ls
+  637  ./pass f1060026
+  638  finger f1060026
+  639  ./addug "Mohammed Rafi" ece f1060026
+  640  finger f1060026
+  641  ./pass f1060026
+  642  ./addug "Vishnu P" mec f1060156
+  643  ./pass f1060156
+  644  ./addug "Praveen Kalish" ece f1060374
+  645  ./pass f1060156
+  646  ./pass f1060156
+  647  ./pass f1060374
+  648  clear
+  649  ls
+  650  ./addug "Manoj Dash" eee f1060312
+  651  ./pass f1060312
+  652  ./addug "Santosh" ece f1060143
+  653  ./pass f1060143
+  654  cls
+  655  clear
+  656  pwd
+  657  ls
+  658  ps -eaf
+  659  ls
+  660  finger exam
+  661  finger exam |more
+  662  ls
+  663  more exam1to60
+  664   more exam
+  665  more expass
+  666  vi expass
+  667  ls -l
+  668  clear
+  669  ls
+  670  more exam
+  671  more expass
+  672  more exam1to60 
+  673              
+  674  ls
+  675  ./exam1to60
+  676  su exam60
+  677  ls
+  678  more exam1to60 
+  679  clear
+  680  ls
+  681  clear
+  682  reboot
+  683  cp 20070324-005-i32.exe /var/www/html/virus/
+  684  cd /var/www/html/virus/
+  685  ls
+  686  ls -l
+  687  rm 20070304-025-i32.exe 
+  688  ls -l
+  689  exit
+  690  mv UNIT-III\ QS-TQM-QC.pdf /var/www/html/prod/
+  691  mv "UNIT- V.pdf" /var/www/html/prod/
+  692  cd /var/www/html/prod/
+  693  ;s
+  694  ls
+  695  ls -l
+  696  exit
+  697  ps -eaf
+  698  top
+  699  cd user
+  700  ./delete f106006
+  701  finger f1060026
+  702  ./delete f1060026
+  703  cd
+  704  reboot
+  705  passwd pr10542
+  706  passwd caa0453
+  707  cd /var/www/html/prod
+  708  ls
+  709  cd /
+  710  clear
+  711  ls
+  712  cd root
+  713  finger f1060026
+  714  ./delete f1060026
+  715  cd user
+  716  ./delete f1060026
+  717  clear
+  718  clear
+  719  finger sam
+  720  ls
+  721  clear
+  722  ./passwd ec10407
+  723  ./pass ec10407
+  724  cd user
+  725  cd
+  726  cd user
+  727  ./pass ec10407
+  728  ./pass ec10448
+  729  clear
+  730  ./pass ic10429
+  731  ./pass ic10413
+  732  clear
+  733  ./pass mt10430
+  734  xit
+  735  exit
+  736  su
+  737  exit
+  738  cd user
+  739  ./addug "1060174" mec f1060174
+  740  ./addug "1060408" mec f1060408
+  741  EXIT
+  742  exit
+  743  df -k
+  744  dmessg
+  745  dmess
+  746  dmesg
+  747  reboot
+  748  top
+  749  ps -eaf
+  750  ps -eaf |more
+  751  top
+  752  ls
+  753  cd usr
+  754  cd user
+  755  ls
+  756  addug "Surya Prakash G." ece f1060003
+  757  ./addug "Surya Prakash G." ece f1060003
+  758  ls
+  759  ./pass f1060535
+  760  finger f1060535
+  761  /usr/sbin/edquota me10407
+  762  clear
+  763  finger me10407
+  764  exit
+  765  /usr/sbin/edquota me10407
+  766  cd /usr
+  767  ls
+  768  cd
+  769  ls
+  770  cd user
+  771  ls
+  772  clear
+  773  smbpasswd me10407
+  774  exit
+  775  cd user
+  776  ;s
+  777  ls
+  778  more examuser
+  779  ./examuser aa1
+  780  l
+  781  ./examuser aa1 aa
+  782  ./examuser aa1 "a"
+  783  ./examuser a
+  784  ls
+  785  more exam1to60
+  786  ./exam a
+  787  ./exam aa a
+  788  ./examuser aa a
+  789  ./examuser aa
+  790  more examuser
+  791  ls
+  792  more examu
+  793  ls
+  794  more examsh
+  795  more exam1to60
+  796  ./exam mcaexam1
+  797  ./exam mca1
+  798  ./exam mca1 mca
+  799  ./exam mca1 'mca'
+  800  ./exam mca
+  801  ./exam aa1
+  802  clea
+  803  clear
+  804  more exam
+  805  ./exam caa1
+  806  ./examuser caa1
+  807  more examuser
+  808  ls
+  809  more examu
+  810  ls
+  811  ls
+  812  cd mca
+  813  ls
+  814  more mcaux
+  815  ls
+  816  more script.sh
+  817  more mcaux
+  818  ls
+  819  more script.sh
+  820  cd ..
+  821  ls
+  822  more examsh
+  823  ./ examsh aaa
+  824  ./examsh aaa
+  825  ./examuser aaa
+  826  ls
+  827  cd mcaux
+  828  more mcaux
+  829  ls
+  830  cd exam
+  831  more ex
+  832  ./ex aaa
+  833  ./ex aaa aa
+  834  clea
+  835  ls
+  836  cd pg
+  837  more pg
+  838  ls
+  839  cd exam_name
+  840  more expas
+  841  ls
+  842  mote test1
+  843  more test1
+  844  more test0
+  845  more enbtest
+  846  more addpgew
+  847  ls
+  848  more examu
+  849   
+  850  vi examuser
+  851  cd \pg\mca
+  852  cd /pg/mca
+  853  mkdir aaa1
+  854  mkdir aaa2
+  855  mkdir aaa3
+  856  mkdir aaa4
+  857  pwd
+  858  ls
+  859  ls
+  860  cd user
+  861  ls
+  862  ls
+  863  cd ..
+  864  ls
+  865  cd root/user
+  866  ls
+  867  ./mcaexampaswd
+  868  ./mcaexampaswd mca07
+  869  ./mcaexampaswd e123
+  870  vi mcaexampaswd
+  871  ./mcaexampaswd e123
+  872  vi mcaexampaswd
+  873  ls
+  874  vi ug05
+  875  clear
+  876  ls
+  877  ls
+  878  more examuser
+  879  ls
+  880  more mcaexampaswd
+  881  clear
+  882  ./mcaexampaswd mca07
+  883  ls
+  884  more pass
+  885  vi mcaexampaswd
+  886  ./mcaexampaswd mca07
+  887  ./mcaexampaswd exam123
+  888  vi mcaexampaswd
+  889  ./mcaexampaswd exam123
+  890  ./mcaexampaswd mca02 exam123
+  891  ls
+  892  more expas
+  893  ls
+  894  more exam1to60
+  895  ls
+  896  more examu
+  897  ls
+  898  more exam
+  899  ./exam mca01 exam123
+  900  ./exam mcaexam80 exam123
+  901  ./exam mcaexam81 exam123
+  902  ls
+  903  more p
+  904  ls
+  905  more examuser
+  906  exit
+  907  pwd
+  908  mv Dare\ International\ Postcard\ 07.pdf DareInternationalPostcard07.pdf 
+  909  mv Dare\ International\ poster\ 07.pdf DareInternationalposter07.pdf 
+  910  ls -l Dare*
+  911  mv DareInternational* /var/www/html/others/
+  912  cd /var/www/html/others/
+  913  ls
+  914  ls -l
+  915  exit
+  916  cd user
+  917  ls
+  918  ./cse-disable.txt 
+  919  ./disable cs10527
+  920  ./disable cs10501
+  921  ./disable cs10502
+  922  ./disable cs10503
+  923  ./disable cs10504
+  924  ./disable cs10505
+  925  ./disable cs10506
+  926  ./disable cs10507
+  927  ./disable cs10508
+  928  ./disable cs10509
+  929  ./disable cs10510
+  930  ./disable cs10511
+  931  ./disable cs10512
+  932  ./disable cs10513
+  933  ./disable cs10514
+  934  ./disable cs10515
+  935  ./disable cs10516
+  936  ./disable cs10517
+  937  ./disable cs10518
+  938  ./disable cs10519
+  939  ./disable cs10520
+  940  ./disable cs10521
+  941  ./disable cs10522
+  942  ./disable cs10523
+  943  ./disable cs10524
+  944  ./disable cs10525
+  945  ./disable cs10526
+  946  ./disable cs10527
+  947  ./disable cs10528
+  948  ./disable cs10529
+  949  ./disable cs10530
+  950  ./disable cs10531
+  951  ./disable cs10532
+  952  ./disable cs10533
+  953  ./disable cs10534
+  954  ./disable cs10535
+  955  ./disable cs10536
+  956  ./disable cs10537
+  957  ./disable cs10538
+  958  ./disable cs10539
+  959  ./disable cs10540
+  960  ./disable cs10541
+  961  ./disable cs10542
+  962  ./disable cs10543
+  963  ./disable cs10544
+  964  ./disable cs10545
+  965  ./disable cs10546
+  966  ./disable cs10547
+  967  ./disable cs10548
+  968  ./disable cs10549
+  969  ./disable cs10550
+  970  ./disable cs10551
+  971  ./disable cs10552
+  972  ./disable cs10553
+  973  ./disable cs10554
+  974  ./disable cs10555
+  975  ./disable cs10556
+  976  ./disable cs10557
+  977  ./disable cs10558
+  978  ./disable cs10559
+  979  ./disable cs10560
+  980  ./disable cs10561
+  981  ./disable cs10562
+  982  ./disable cs10563
+  983  ./disable cs10564
+  984  ./disable cs10565
+  985  ./disable cs10566
+  986  ./disable cs10567
+  987  ./disable cs10568
+  988  ./disable cs10569
+  989  ./disable cs10570
+  990  ./disable cs10571
+  991  ./disable cs10572
+  992  ./disable cs10573
+  993  ./disable cs10574
+  994  ./disable cs10575
+  995  clear
+  996  ls
+  997  ifconfig
+  998  clear
+  999  exit
+ 1000  ls
+ 1001  cd ..
+ 1002  cd user
+ 1003  cd /root/user
+ 1004  ls
+ 1005  more exam1to60
+ 1006  ls
+ 1007  more mcaexamadd
+ 1008  more exam
+ 1009  ls
+ 1010  more mcaexampaswd
+ 1011  ./mcaexampaswd mca20 m12
+ 1012  ls
+ 1013  more pass
+ 1014  more pas1
+ 1015  ls
+ 1016  more expass
+ 1017  more examuser
+ 1018* 
+ 1019  more mcaexampaswd
+ 1020  ./mcaexampaswd m11
+ 1021  vi mcaexampaswd
+ 1022  ./mcaexampaswd m11
+ 1023  vi mcaexampaswd
+ 1024  ./mcaexampaswd m11
+ 1025  vi mcaexampaswd
+ 1026  ./mcaexampaswd m11
+ 1027  vi mcaexampaswd
+ 1028  ls
+ 1029  more examsh
+ 1030  ./examsh mca01 m11
+ 1031  ./examsh mca01
+ 1032  more examu
+ 1033  list history>tt.txt
+ 1034  history>tt.txt

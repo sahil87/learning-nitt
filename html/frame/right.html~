@@ -1,0 +1,57 @@
+<HTML>
+<HEAD><TITLE>Forms</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function evaluate()
+{
+document.form1.result.value=eval(document.form1.expr.value);
+}
+//-->
+</SCRIPT>
+</HEAD>
+<FORM NAME="form1">
+<EM>By the INPUT keyword-</EM>
+<BR><INPUT TYPE="text" NAME=first SIZE=15 MAXLENGTH=20 VALUE="What's ya name eh?"> <!--MAXLENGTH is the max typable length-->
+<BR>
+<INPUT TYPE="password" NAME=first SIZE=15 MAXLENGTH=8 VALUE = "abc" ><BR>
+<INPUT TYPE="checkbox" NAME="os" VALUE="nice?" CHECKED> nice?
+<INPUT TYPE="checkbox" NAME="os" VALUE="notsn"> not so nice?<BR>
+<INPUT TYPE="radio" NAME="os1" VALUE="nice"> nice?
+<INPUT TYPE="radio" NAME="os1" VALUE="notsn"> not so nice?<BR>
+
+<TABLE BORDER CELLSPACING=2 CELLPADDING=3><!--Cell spacing refers to the space between the cells-->
+<TR><!--Cell padding refers to the amount of space between the cell’s border and its contents-->
+	<TD ><INPUT TYPE="submit" NAME="submit" ></TD>
+	<TD><INPUT TYPE="reset" NAME="res" VALUE="Start over"></TD>
+</TR>
+<TR>
+	<TD><INPUT TYPE="button" VALUE="Push me"></TD>
+	<TD><INPUT TYPE="file" SIZE=5></TD>
+</TR>
+</TABLE>
+
+<P><EM>TEXTAREA keyword-</EM><BR>
+<TEXTAREA NAME="spit" ROWS=5 COLS=30>
+Spit all your rage here.</TEXTAREA>
+
+<P><EM>SELECT keyword-</EM>
+<BR>What type of death would you most prefer?... hmmm?
+<SELECT NAME="Type of death">
+<OPTION>Falling of the road
+<OPTION>Seeing gits naked
+<OPTION>Fear of ragging
+<OPTION>Stopping your breath
+<OPTION>Fear of ... getting scared?
+</SELECT>
+<BR><SELECT NAME="Type of death" SIZE=3 MULTIPLE>
+<OPTION>Falling of the road
+<OPTION>Seeing gits naked
+<OPTION>Fear of ragging
+<OPTION>Stopping your breath
+<OPTION>Fear of ... getting scared?
+</SELECT>
+<P><EM>Calculator - </EM><BR>
+Expression - <INPUT TYPE="text" NAME="expr" onChange="evaluate();">
+Result - <INPUT TYPE="text" NAME="result" VALUE="xxx" onFocus="document.form1.result.blur()">
+</FORM>
+</HTML>

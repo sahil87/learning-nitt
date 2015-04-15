@@ -1,0 +1,3 @@
+cp /etc/skel/.* /ug/exam/$1
+chown $1.exam /ug/exam/$1 -R
+chsh -s /bin/bash $1

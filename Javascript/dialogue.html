@@ -1,0 +1,22 @@
+<HTML>
+<HEAD><TITLE>Dialogue boxes in javascript</TITLE></HEAD>
+<BODY>
+<FORM name=form1>
+
+<P>First dialogue box -
+</P>
+
+<P>Time-
+<INPUT type="text" name=timeinput onClick="changetime(this)">
+</P>
+</FORM>
+
+<SCRIPT type=text/javascript>
+function changetime(val)
+{	var date1=new Date();
+	var a=""+date1.getHours()+":"+date1.getMinutes()+":"+date1.getSeconds();
+	val.value=a;	
+}
+</SCRIPT>
+</BODY>
+</HTML>

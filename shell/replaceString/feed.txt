@@ -1,0 +1,8 @@
+H|HEADER|BUSINESSDATE
+H|SomeHeader|something1|something2|
+D|HEADER|DATA
+D|100000000001|account|product
+D|100000000002|account|product
+D|100000000003|account|product
+D|100000000004|account|product
+D|TRAILER|20

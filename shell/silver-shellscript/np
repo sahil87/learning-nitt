@@ -1,0 +1,11 @@
+/usr/bin/chage -m -1 -M 1200 -W -1 $1
+/usr/local/bin/apg -a 1 -M lcn -n 1 -m 6 -x 6 > .passwd
+passwd --stdin $1 < .passwd
+cp .passwd .p2
+cat .passwd >> .p2
+smbpasswd -s $1 < .p2
+echo "......................................" 
+echo "passwd is " ; more .passwd
+echo "......................................" 
+sleep 11
+clear

@@ -1,0 +1,14 @@
+/usr/bin/chage -m -1 -M 1200 -W -1 $1
+echo Bq$RANDOM > test1
+cp test1 ttpwd1
+cat test1 >> ttpwd1
+passwd --stdin $1 < test1
+smbpasswd -s $1 < ttpwd1
+#echo " "
+#echo " "
+echo " ......................................" 
+echo "         Passwd is "  `echo -e "\033[1;32m" ; more test1`
+echo -e "\033[7m \033[0m" `echo "......................................"` 
+#sleep 7
+#clear
+#clear

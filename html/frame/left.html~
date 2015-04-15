@@ -1,0 +1,33 @@
+<HTML>
+<BODY>
+<TABLE>
+<TR>
+	<TD ROWSPAN=10 WIDTH=3 BGCOLOR="#c2e3f2"></TD>
+	<TD WIDTH=30></TD><!--Width gives the maximum width... its just a suggestion to the browser.-->
+	<TD></TD>
+<TR>
+	<TD COLSPAN=2>1.html-</TD>
+</TR>
+<TR>
+	<TD></TD>
+	<TD><A HREF="..\1.html" TARGET="_blank">in a new window</A></TD>
+</TR>
+<TR>
+	<TD></TD>
+	<TD><A HREF="..\1.html" TARGET="content">in the right window</A></TD>
+</TR>
+<TR>
+	<TD COLSPAN=2><A HREF="..\f.html" TARGET="content">Nithya's forms</A></TD>
+	<TD></TD>
+</TR>
+<TR>
+	<TD COLSPAN=2><A HREF="right.html" TARGET="content">My forms</A></TD>
+	<TD></TD>
+</TR>
+<TR>
+	<TD><A HREF="..\ed.gif" TARGET="content"><IMG SRC="child.gif" HEIGHT="20" WIDTH="50" BORDER="no" 
+	onMouseOver="this.src='cheerleader.gif'" onMouseOut="this.src='child.gif';"></A></TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>

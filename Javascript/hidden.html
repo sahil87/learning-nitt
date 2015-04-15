@@ -1,0 +1,18 @@
+<HTML>
+<HEAD><TITLE>hide the elements</TITLE></HEAD>
+<BODY>
+<SCRIPT type=text/javascript>
+function hide(obj)
+{
+	if(obj.style.display=="none")obj.style.display="";
+	else obj.style.display="none";
+}
+</SCRIPT>
+<FORM name=f1>
+<a href="javascript:hide(document.f1.txt1)">hide</a>
+<INPUT type='text' value='initial value' id=txt1>
+hello
+<br>
+</FORM>
+</BODY>
+</HTML>

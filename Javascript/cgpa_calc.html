@@ -1,0 +1,376 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="author" content="Manu, MT10215, NIT-Trichy">
+<meta name="keywords" content="cg,cgpa,gpa,gpacalc,manu">
+<meta name="description" content="A simple JavaScript to calculate your CGPA">
+<title>CGPA calculator - NIT, Trichy</title>
+<script language="javascript" type="text/javascript">
+<!--
+
+/*
+
+Copyright (C) 2005 Manu <manu.m.karnataki[at]gmail[dot]com>
+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ GNU General Public License can be found at http://www.gnu.org/licenses/gpl.txt
+
+*/
+
+var cp1,cp2,cp3,cp4,cp5,cp6,cp7,cp8;
+//credit points earned for individual sems.
+
+function calc_cp()
+{
+	// Calculate credit-points for individual sems and store globally.
+	cp1=f.g1.value!=""?Math.round(eval(f.c1.value)*eval(f.g1.value)):0;
+	cp2=f.g2.value!=""?Math.round(eval(f.c2.value)*eval(f.g2.value)):0;
+	cp3=f.g3.value!=""?Math.round(eval(f.c3.value)*eval(f.g3.value)):0;
+	cp4=f.g4.value!=""?Math.round(eval(f.c4.value)*eval(f.g4.value)):0;
+	cp5=f.g5.value!=""?Math.round(eval(f.c5.value)*eval(f.g5.value)):0;
+	cp6=f.g6.value!=""?Math.round(eval(f.c6.value)*eval(f.g6.value)):0;
+	cp7=f.g7.value!=""?Math.round(eval(f.c7.value)*eval(f.g7.value)):0;
+	cp8=f.g8.value!=""?Math.round(eval(f.c8.value)*eval(f.g8.value)):0;
+	return;
+}
+
+function gcal()
+{
+	calc_cp(); // Update global var values.
+	if(Math.abs(cp1/eval(f.c1.value)-eval(f.g1.value))>0.0051) {
+		window.alert("Hey, how can GPA be "+f.g1.value+" in sem1?\n"+f.c1.value+" credit sem!\nDid you mean "+
+		Math.round(100*cp1/f.c1.value)/100.0+"?");
+		return;
+	}
+	if(Math.abs(cp2/eval(f.c2.value)-eval(f.g2.value))>0.0051) {
+		window.alert("Hey, how can GPA be "+f.g2.value+" in sem2?\n"+f.c2.value+" credit sem!\nDid you mean "+
+		Math.round(100*cp2/f.c2.value)/100.0+"?");
+		return;
+	}
+	if(Math.abs(cp3/eval(f.c3.value)-eval(f.g3.value))>0.0051) {
+		window.alert("Hey, how can GPA be "+f.g3.value+" in sem3?\n"+f.c3.value+" credit sem!\nDid you mean "+
+		Math.round(100*cp3/f.c3.value)/100.0+"?");
+		return;
+	}
+	if(Math.abs(cp4/eval(f.c4.value)-eval(f.g4.value))>0.0051) {
+		window.alert("Hey, how can GPA be "+f.g4.value+" in sem4?\n"+f.c4.value+" credit sem!\nDid you mean "+
+		Math.round(100*cp4/f.c4.value)/100.0+"?");
+		return;
+	}
+	if(Math.abs(cp5/eval(f.c5.value)-eval(f.g5.value))>0.0051) {
+		window.alert("Hey, how can GPA be "+f.g5.value+" in sem5?\n"+f.c5.value+" credit sem!\nDid you mean "+
+		Math.round(100*cp5/f.c5.value)/100.0+"?");
+		return;
+	}
+	if(Math.abs(cp6/eval(f.c6.value)-eval(f.g6.value))>0.0051) {
+		window.alert("Hey, how can GPA be "+f.g6.value+" in sem6?\n"+f.c6.value+" credit sem!\nDid you mean "+
+		Math.round(100*cp6/f.c6.value)/100.0+"?");
+		return;
+	}
+	if(Math.abs(cp7/eval(f.c7.value)-eval(f.g7.value))>0.0051) {
+		window.alert("Hey, how can GPA be "+f.g7.value+" in sem6?\n"+f.c7.value+" credit sem!\nDid you mean "+
+		Math.round(100*cp7/f.c7.value)/100.0+"?");
+		return;
+	}
+	if(Math.abs(cp8/eval(f.c8.value)-eval(f.g8.value))>0.0051) {
+		window.alert("Hey, how can GPA be "+f.g8.value+" in sem6?\n"+f.c8.value+" credit sem!\nDid you mean "+
+		Math.round(100*cp8/f.c8.value)/100.0+"?");
+		return;
+	}
+	n=(f.g1.value!=""?eval(f.c1.value):0)+
+	(f.g2.value!=""?eval(f.c2.value):0)+
+	(f.g3.value!=""?eval(f.c3.value):0)+
+	(f.g4.value!=""?eval(f.c4.value):0)+
+	(f.g5.value!=""?eval(f.c5.value):0)+
+	(f.g6.value!=""?eval(f.c6.value):0)+
+	(f.g7.value!=""?eval(f.c7.value):0)+
+	(f.g8.value!=""?eval(f.c8.value):0);
+	// n = total number of credits
+	cgpa=(cp1+cp2+cp3+cp4+cp5+cp6+cp7+cp8)/n;
+	f.ct.value=n;
+	// Round off:
+	f.cg.value=Math.round(cgpa*100.0)/100.0;
+}
+
+function gpa_less(n)
+{
+	calc_cp();
+	if(eval("f.g"+n+".value")>=5.0)
+		eval("f.g"+n+".value=Math.round(100*(cp"+n+"-1)/f.c"+n+".value)/100.0;");
+	gcal();
+}
+
+function gpa_more(n)
+{
+	calc_cp();
+	if(f.g1.value>=5.0)
+		eval("f.g"+n+".value=Math.round(100*(cp"+n+"+1)/f.c"+n+".value)/100.0;");
+	gcal();
+}
+-->
+</script>
+<style type="text/css">
+<!--
+body {
+	font-family:Verdana;
+	font-size:14px;
+}
+select,option {
+	width: 50px;
+	text-align: center;
+}
+input.t {
+	text-align:left;
+}
+input.cg {
+	font-weight:bold;
+}
+.vl {
+	width: 20px;
+	border-right-width: 0px;
+	border-right-style: none;
+}
+.vr {
+	width: 20px;
+	border-left-width: 0px;
+	border-left-style: none;
+}
+-->
+</style>
+</head>
+<body>
+<h1 align="left">CGPA calculator</h1>
+<form name="f" action="." method="get" onSubmit="return false;">
+<table border="1" cellpadding="3" cellspacing="0">
+  <tr align="center">
+    <th>Sem</th>
+    <th>Credits</th>
+    <th>GPA</th>
+    <th>Vary</th>
+  </tr>
+  <tr>
+    <td align="center">1<sup>st</sup> </td>
+    <td align="center">
+	<select name="c1" id="c1">
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20" selected>20</option>
+      <option value="21">21</option>
+      <option value="22">22</option>
+      <option value="23">23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>
+      <option value="28">28</option>
+    </select></td>
+    <td align="center"><input name="g1" type="text" class="t" id="g1" size="9" maxlength="5"></td>
+    <td align="center">
+	<input name="vl1" type="button" class="vl" id="vl1" value="&lt; " onClick="gpa_less(1);"><input name="vr1" type="button" class="vr" id="vr1" value=" &gt;" onClick="gpa_more(1);">
+	</td>
+  </tr>
+  <tr>
+    <td align="center">2<sup>nd</sup> </td>
+    <td align="center"><select name="c2" id="c2">
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>
+      <option value="21">21</option>
+      <option value="22">22</option>
+      <option value="23">23</option>
+      <option value="24" selected>24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>
+      <option value="28">28</option>
+        </select></td>
+    <td align="center"><input name="g2" type="text" class="t" id="g2" size="9" maxlength="5"></td>
+    <td align="center">
+	<input name="vl2" type="button" class="vl" id="vl2" value="&lt; " onClick="gpa_less(2);"><input name="vr2" type="button" class="vr" id="vr2" value=" &gt;" onClick="gpa_more(2);"></td>
+  </tr>
+  <tr>
+    <td align="center">3<sup>rd</sup> </td>
+    <td align="center"><select name="c3" id="c3">
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>
+      <option value="21">21</option>
+      <option value="22">22</option>
+      <option value="23" selected>23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>
+      <option value="28">28</option>
+        </select></td>
+    <td align="center"><input name="g3" type="text" class="t" id="g3" size="9" maxlength="5"></td>
+    <td align="center">
+	<input name="vl3" type="button" class="vl" id="vl3" value="&lt; " onClick="gpa_less(3);"><input name="vr3" type="button" class="vr" id="vr3" value=" &gt;" onClick="gpa_more(3);"></td>
+  </tr>
+  <tr>
+    <td align="center">4<sup>th</sup></td>
+    <td align="center"><select name="c4" id="c4">
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>
+      <option value="21">21</option>
+      <option value="22" selected>22</option>
+      <option value="23">23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>
+      <option value="28">28</option>
+    </select></td>
+    <td align="center"><input name="g4" type="text" class="t" id="g4" size="9" maxlength="5"></td>
+    <td align="center">
+	<input name="vl4" type="button" class="vl" id="vl4" value="&lt; " onClick="gpa_less(4);"><input name="vr4" type="button" class="vr" id="vr4" value=" &gt;" onClick="gpa_more(4);"></td>
+  </tr>
+  <tr>
+    <td align="center">5<sup>th</sup></td>
+    <td align="center"><select name="c5" id="c5">
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>
+      <option value="21">21</option>
+      <option value="22">22</option>
+      <option value="23" selected>23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>
+      <option value="28">28</option>
+    </select></td>
+    <td align="center"><input name="g5" type="text" class="t" id="g5" size="9" maxlength="5"></td>
+    <td align="center">
+	<input name="vl5" type="button" class="vl" id="vl5" value="&lt; " onClick="gpa_less(5);"><input name="vr5" type="button" class="vr" id="vr5" value=" &gt;" onClick="gpa_more(5);"></td>
+  </tr>
+  <tr>
+    <td align="center">6<sup>th</sup> </td>
+    <td align="center"><select name="c6" id="c6">
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>
+      <option value="21">21</option>
+      <option value="22" selected>22</option>
+      <option value="23">23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>
+      <option value="28">28</option>
+        </select></td>
+    <td align="center"><input name="g6" type="text" class="t" id="g6" size="9" maxlength="5"></td>
+    <td align="center">
+	<input name="vl6" type="button" class="vl" id="vl6" value="&lt; " onClick="gpa_less(6);"><input name="vr6" type="button" class="vr" id="vr6" value=" &gt;" onClick="gpa_more(6);"></td>
+  </tr>
+    <tr>
+    <td align="center">7<sup>th</sup> </td>
+    <td align="center"><select name="c7" id="c7">
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20" selected>20</option>
+      <option value="21">21</option>
+      <option value="22">22</option>
+      <option value="23">23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>
+      <option value="28">28</option>
+        </select></td>
+    <td align="center"><input name="g7" type="text" class="t" id="g7" size="9" maxlength="5"></td>
+    <td align="center">
+	<input name="vl7" type="button" class="vl" id="vl7" value="&lt; " onClick="gpa_less(7);"><input name="vr7" type="button" class="vr" id="vr7" value=" &gt;" onClick="gpa_more(7);"></td>
+    </tr>
+    <tr>
+    <td align="center">8<sup>th</sup> </td>
+    <td align="center"><select name="c8" id="c8">
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>
+      <option value="21" selected>21</option>
+      <option value="22">22</option>
+      <option value="23">23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>
+      <option value="28">28</option>
+        </select></td>
+    <td align="center"><input name="g8" type="text" class="t" id="g8" size="9" maxlength="5"></td>
+    <td align="center">
+	<input name="vl8" type="button" class="vl" id="vl8" value="&lt; " onClick="gpa_less(8);"><input name="vr8" type="button" class="vr" id="vr8" value=" &gt;" onClick="gpa_more(8);"></td>
+    </tr>
+  <tr>
+    <td colspan="4" align="center">
+	<input name="calc" type="submit" id="calc" value="Calculate CPGA&gt;&gt;" onClick="gcal();">
+	&nbsp;</td>
+    </tr>
+  <tr>
+    <td align="center"><strong>CGPA</strong>:</td>
+    <td align="center"><input name="ct" type="text" id="ct" size="9" maxlength="5" readonly></td>
+    <td colspan="2" align="center"><input name="cg" type="text" class="cg" id="cg" size="9" maxlength="5" readonly></td>
+    </tr>
+</table>
+</form>
+</body>
+</html>

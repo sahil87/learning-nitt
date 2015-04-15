@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+struct node
+{	
+  int info;
+  struct node *next;
+};
+
+
+int main()
+{
+  node *q,*p,*p1;
+  p=new node;
+  //q=NULL;
+  p1=p;
+  int i,ans=1;
+  while(ans==1)
+    {
+      q=new node;
+
+      p -> info = i;
+      p -> next = q;
+      p=q;
+      
+      cout << "Do you wish to add one more statement?";
+      cin >> ans;
+    }
+  cout<<"Hi how are you???";
+  return 0;
+}
+  

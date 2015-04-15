@@ -1,0 +1,6 @@
+rm -rf /ug/exam/$1 
+/usr/sbin/useradd -d /ug/exam/$1 -g exam -m -s /bin/bash
+#mkdir /ug/exam/$1
+#chmod og-rx /ug/exam/$1
+#chown $1.exam /ug/exam/$1
+/usr/bin/passwd --stdin $1 < expass

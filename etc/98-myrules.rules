@@ -1,0 +1,2 @@
+#SUBSYSTEMS=="scsi",  ATTRS{serial}=="57442D574341553430353933363436", RUN+="/mnt/backup/f10/externalHD_udev.sh"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1058", RUN+="/mnt/backup/f10/externalHD_udev.sh"

@@ -1,0 +1,138 @@
+RESULTS : 
+				C	PHP	Python
+No of instructions -		10^8	10^8	5*10^5
+				0.919s	22.638s	1.694s
+
+
+
+Individual results -
+
+Python
+=======
+[sahil@sahil knowingWhichCodeRunsFaster]$ cat loadpy.py; time python loadpy.py
+#!/usr/bin/python
+#A program to test the load on the processor for python programs
+
+for i in range(1,1000*500):
+        False;
+
+
+real    0m1.694s
+user    0m0.820s
+sys     0m0.680s
+#####################################################################
+
+
+
+PHP
+=======
+[sahil@sahil knowingWhichCodeRunsFaster]$ cat loadphp.php ; time php -f loadphp.php
+#!/usr/bin/php -f
+<?php
+for($i=0;$i<1000*1000*100;++$i);
+?>
+
+real    0m22.638s
+user    0m21.269s
+sys     0m0.144s
+
+########################################################################
+C
+======
+[sahil@sahil knowingWhichCodeRunsFaster]$ gcc loadc.c
+[sahil@sahil knowingWhichCodeRunsFaster]$ cat loadc.c ; time ./a.out
+main()
+{
+        int i;
+        for ( i=0;i<1000*500;++i);
+}
+
+
+real    0m0.006s
+user    0m0.004s
+sys     0m0.000s
+-----------------------------------------------------------------
+[sahil@sahil knowingWhichCodeRunsFaster]$ gcc loadc.c
+[sahil@sahil knowingWhichCodeRunsFaster]$ cat loadc.c ; time ./a.out
+main()
+{
+        int i;
+        for ( i=0;i<1000*1000*1000;++i);
+}
+
+
+real    0m5.444s
+user    0m5.112s
+sys     0m0.004s
+------------------------------------------------------------------
+[sahil@sahil knowingWhichCodeRunsFaster]$ gcc loadc.c
+[sahil@sahil knowingWhichCodeRunsFaster]$ cat loadc.c ; time ./a.out
+main()
+{
+        int i;
+        for ( i=0;i<1000*1000*100;++i);
+}
+
+
+real    0m0.919s
+user    0m0.844s
+sys     0m0.004s
+##########################################################################
+
+
+CPP
+===
+[sahil@sahil knowingWhichCodeRunsFaster]$ g++ loadcpp.cc
+[sahil@sahil knowingWhichCodeRunsFaster]$ cat loadcpp.cc ; time ./a.out
+int main()
+{
+        int i;
+        for ( i=0;i<1000*500;++i);
+}
+
+
+real    0m0.014s
+user    0m0.008s
+sys     0m0.000s
+------------------------------------------------------------------------
+[sahil@sahil knowingWhichCodeRunsFaster]$ g++ loadcpp.cc
+[sahil@sahil knowingWhichCodeRunsFaster]$ cat loadcpp.cc ; time ./a.out
+int main()
+{
+        int i;
+        for ( i=0;i<1000*1000*1000;++i);
+}
+
+
+real    0m5.594s
+user    0m5.252s
+sys     0m0.008s
+------------------------------------------------------------------------
+[sahil@sahil knowingWhichCodeRunsFaster]$ g++ loadcpp.cc -march=athlon64
+[sahil@sahil knowingWhichCodeRunsFaster]$ cat loadcpp.cc ; time ./a.out
+int main()
+{
+        int i;
+        for ( i=0;i<1000*1000*1000;++i);
+}
+
+
+real    0m5.075s
+user    0m4.764s
+sys     0m0.008s
+-----------------------------------------------------------------------
+[sahil@sahil knowingWhichCodeRunsFaster]$ cat loadcpp.cc ; time ./a.out
+int main()
+{
+        int i;
+        for ( i=0;i<1000*1000*100;++i);
+}
+
+
+real    0m0.979s
+user    0m0.848s
+sys     0m0.000s
+#########################################################################
+
+
+

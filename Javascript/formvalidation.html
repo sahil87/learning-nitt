@@ -1,0 +1,48 @@
+<HTML>
+
+<HEAD><TITLE>Just an attempt..</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+	var cond=false;
+	function check(form)
+	{	if(form.usrname.value=="abc"||form.usrname.value=="")
+		{	alert("Please enter your name");
+			return false;
+		}
+		if(form.occupation.selectedIndex==1)
+		{	alert("Please slect occupation");
+			return false;
+		}
+		if(cond==false)
+		{	OpenNewWindow=window.open('formvalidation.html');
+		}
+	}
+</SCRIPT>
+</HEAD>
+
+<BODY>
+<H3 ALIGN="left"><FONT FACE="verdana">Validating a form-</FONT></H3>
+<FORM onSubmit="return check(this)" METHOD=POST ACTION="valdate.pl">
+<TABLE>
+<TR>
+	<TD WIDTH=250 ALIGN="right">Enter your name - </TD>
+	<TD><INPUT TYPE = "text" NAME="usrname" VALUE="abc" onFocus="cond=true;"></TD>
+</TR>
+<TR>
+	<TD ALIGN="right">Seclect an occupation - </TD>
+	<TD>	<SELECT NAME="occupation" onFocus="cond=true;">
+		<OPTION>--
+		<OPTION>student
+		<OPTION>teacher
+		<OPTION>doctor
+		</SELECT>
+	</TD>
+</TR>
+<TR>
+	<TD ALIGN="right"><INPUT TYPE="submit">
+	</TD>
+</TR>
+</TABLE>
+<FORM>
+</BODY>
+
+</HTML>

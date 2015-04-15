@@ -1,0 +1,18 @@
+. mainfun1.sh
+while true ; do
+echo "enter the number"
+read i
+while [ i -le 5 ]
+do
+read n
+if test $n -le 50
+then
+echo "the number is $n"
+echo "the square of the number is `expr $n \* $n`"
+else 
+echo "enter the numbers between 1 and 50"
+fi
+f1='sh in3'
+done
+anymore "Wish to Continue" 1>&2 || break
+done

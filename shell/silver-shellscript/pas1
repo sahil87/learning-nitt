@@ -1,0 +1,27 @@
+echo "Enter rollno to change the passwd \c"
+read roll
+echo " "
+finger "$roll" > .o
+if grep "$roll"  .o
+#if grep "$roll" /etc/passwd
+then
+echo " "
+/usr/bin/chage -m -1 -M 1200 -W -1 $roll
+passwd --stdin $roll < pas1.t
+smbpasswd -s $roll < pas1.s
+echo " ......................................" 
+echo "passwd is "  `echo -e "\033[1;32m"; more pas1.t`
+echo -e "\033[7m \033[0m"
+echo "......................................" 
+#sleep 5
+#clear
+#chsh -s /bin/Rsh $roll 
+#smbpasswd -d $roll
+echo " "
+else
+echo " "
+echo "Rollno not found"
+echo " "
+fi
+$0
+clear

@@ -1,0 +1,9 @@
+<HTML>
+<HEAD><TITLE>Yamooo</TITLE></HEAD>
+<BODY>
+<SCRIPT LANGUAGE="JavaScript">
+	var expression=prompt("enter the expression to evaluate","xxx");
+	document.write("The answer is "+eval(expresion));
+</SCRIPT>
+</BODY>
+</HTML>

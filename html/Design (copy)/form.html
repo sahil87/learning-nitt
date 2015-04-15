@@ -1,0 +1,94 @@
+<HTML>
+<HEAD><TITLE>Home links</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+function check(form)
+	{	if(form.usrname.value==""||form.usrname.value=="type your name here")
+		{	alert("Please type your name");
+			return false;
+		}
+		if(form.email.value==""||form.email.value=="type a valid email id")
+		{	alert("Please type an email id");
+			return false;
+		}
+		if(form.age.selectedIndex==0)
+		{	alert("Please select an age");
+			return false;
+		}
+		if(form.product.selectedIndex==0)
+		{	alert("Please select a product");
+			return false;
+		}
+	}
+</SCRIPT>
+</HEAD>
+
+
+<BODY BGCOLOR="#e3e9ff">
+<FORM onSubmit="return check(this)" NAME="form1" METHOD=POST ACTION="form.html">
+<UL><UL>
+<TABLE WIDTH="600"><CAPTION><H3 ALIGN="left">Online Product Purchase form</H3></CAPTION>
+<TR>
+	<TD WIDTH=165>Your name - </TD>
+	<TD><INPUT TYPE="text" NAME="usrname" VALUE="type your name here"><TD>
+</TR>
+<TR>
+	<TD WIDTH=165>Email id - </TD>
+	<TD><INPUT TYPE="text" NAME="email" VALUE="type a valid email id"></TD>
+</TR>
+<TR>
+	<TD WIDTH=165>Sex - </TD>
+	<TD><INPUT TYPE="radio" NAME="sex" VALUE="male" SELECTED>Male
+	    <INPUT TYPE="radio" NAME="sex" VALUE="female">Female
+	</TD>
+</TR>
+<TR>
+	<TD WIDTH=165>Age - </TD>
+	<TD><SELECT NAME="age">
+		<OPTION>----
+		<OPTION>0-15
+		<OPTION>16-25
+		<OPTION>25-50
+		<OPTION>51 and above
+	    </SELECT>
+	  </TD>
+</TR>
+<TR HEIGHT="100">
+	<TD WIDTH=165>Your address - </TD>
+	<TD><TEXTAREA ROWS=5 COLS=50 NAME="address">Type the delivery address</TEXTAREA></TD>
+</TR>
+<TR>
+	<TD WIDTH=165>Product name - </TD>
+	<TD><SELECT NAME="product">
+		<OPTION>----
+		<OPTION>Nivea silky shimmer lotion
+		<OPTION>Nivea sun screen lotion
+		<OPTION>Nivea Hair Care
+		<OPTION>Nivea Baby Soap
+		<OPTION>Nivea cd 1
+	    </SELECT>
+	  </TD>
+</TR>
+<TR>
+	<TD WIDTH=165>Select the number of products you wish to purchase - </TD>
+	<TD><SELECT NAME="noofproduct">
+		<OPTION>1
+		<OPTION>2
+		<OPTION>3
+		<OPTION>4
+		<OPTION>More than 4
+	    </SELECT></TD>
+</TR>
+<TR HEIGHT="100">
+	<TD WIDTH=165>Any Suggestions - </TD>
+	<TD><TEXTAREA ROWS=5 COLS=50 NAME="complaint">Your suggestions are valuable to us</TEXTAREA></TD>
+</TR>
+<TR>
+	<TD WIDTH=165><INPUT TYPE="submit"></TD>
+	<TD><INPUT TYPE="reset"></TD>
+</TR>
+<TABLE>
+</UL>
+</UL>
+</FORM>
+</BODY>
+</HTML>

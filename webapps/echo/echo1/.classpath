@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="WEB-INF/classes/" kind="src" path=""/>
+	<classpathentry kind="src" path="WEB-INF/classes"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/usr/share/tomcat5/common/lib/[servlet].jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

@@ -1,0 +1,41 @@
+Things being worked upon now
+
+
+1) Cha(a)t in the applet :
+	* start it as a thread !( grr read first how to work with a thread !! )
+	* The ch(a)at is to be visible to the person only when logged in
+	* The cha(a)t should have induvidual messaging
+	* Only one single cha(a)troom
+	*
+
+ cha(a)t  work being done by suren
+
+ // Backend : Copy of Company_Info to MF_Info..
+ // Frontend : Capital Management Submit Button.. Set action..  Set spinner Control..
+ // Backend : Capital Management -- Update User Table..
+ // Backend : Buy,Sell,Invest,Deinvest,getBid,getHolding(Both Company & MF),getRecentTransactions,getTopRankings,getCompanyInfo,GetMFInfo,getNews,GetFAQs,getCompanyPrice,getMFNAV,getSensex
+ // Frontend : Add Notification Message box to each button..
+ // Add NITT Logo, Pragyan Logo, Temenos Logo, Dalal Poster,
+
+ // recent transactions : time,company/MF id,units,amount
+
+ // Game Updater
+
+ // MF Bot
+ // Update Price Bot
+ // Flush Bids Bot
+ // Automatic Logoff
+ // Update Sensex
+ // Distribute Dividends Bot
+ // Calculate Networth & Rankings
+
+
+
+
+ // getcomp/mfinfo loop
+ // topbids
+ // transaction entry in invest/disinvest
+
+
+
+

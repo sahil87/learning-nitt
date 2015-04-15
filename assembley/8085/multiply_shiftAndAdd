@@ -1,0 +1,40 @@
+
+;<Multiply by shift and add method>
+
+		jmp start
+
+;data
+FIRST: DB 2
+SECOND: DB 200
+ANSWER: DS 2
+
+;code
+start:		nop
+	XRA A
+	LXI H,0000H
+	LDA FIRST
+	MOV C,A
+	LDA SECOND
+	MOV E,A
+	MVI D, 00H
+	MVI B,01H
+GOTO1:	MOV A,B
+	ANA C
+	JZ GOTO2
+	DAD D
+GOTO2:	MOV A,B
+	RAL
+	MOV B,A
+	XRA A
+	MOV A,E
+	RAL
+	MOV E,A
+	MOV A,D
+	RAL 
+	MOV D,A
+	MOV A,B
+	CPI 00H
+	JNZ GOTO1
+	SHLD ANSWER
+	HLT
+	

@@ -1,0 +1,2 @@
+echo Abc456 > .exp
+/usr/bin/passwd --stdin $1 < .exp

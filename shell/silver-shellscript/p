@@ -1,0 +1,17 @@
+clear
+echo ".............................................................."
+#echo "Rollno is  " $1
+finger $1
+echo ".............................................................."
+echo -e "\033[1;32m "
+echo "  Password is    " `more /dept/vicky/users/2005/p/$1`
+echo ""
+echo ""
+echo ""
+echo ""
+echo -e "\033[7m \033[0m"
+
+#clear
+#echo -e "\033[1;32m"
+#more /dept/vicky/2003/$1
+#echo -e "\033[7m \033[0m"

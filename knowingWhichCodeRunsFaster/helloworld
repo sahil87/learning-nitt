@@ -1,0 +1,3 @@
+#! /usr/bin/python
+# A program to print helloworld
+print 'hello world'

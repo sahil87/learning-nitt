@@ -1,0 +1,33 @@
+GROUP=ug
+USRHOME=/ug
+
+if [ -s $3 ]
+then 
+	echo "usage : addother \"<name>\" <department> <login-name>"
+	echo
+	exit
+fi 
+
+/usr/sbin/adduser -g $GROUP -c "$1" -d $USRHOME/$2/$3 -p allpass -m $3 
+
+if test "$?" != "0"
+then
+	echo "addother unsuccessful"
+	exit
+fi
+
+/usr/bin/passwd --stdin $3 $4
+#/usr/bin/passwd $3 
+/usr/sbin/edquota -p ugqouta $3
+/usr/bin/chage -m -1 -M 1200 -W -1 $3
+#echo   "export HISTFILE=/var/tmp/log/$3" >> $USRHOME/$2/$3/.bash_logout
+#chattr +i $USRHOME/$2/$3/.bash_logout
+#touch /var/tmp/log/$3
+#chown $3 /var/tmp/log/$3
+#chmod 600 /var/tmp/log/$3
+#chattr +a /var/tmp/log/$3
+/usr/bin/smbadduser $3:$3 
+/usr/bin/smbpasswd -s $3 $4 
+echo "........................................"
+echo "Password is : " ` more test1`
+echo "........................................"

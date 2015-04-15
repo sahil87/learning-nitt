@@ -1,0 +1,26 @@
+<HTML>
+<HEAD>
+<TITLE>Validator</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+	function checkForm(form) {
+		for (var i = 0; i < form.elements.length; i++) {
+			if (form.elements[i].value == "") {
+				alert("Fill out ALL fields.")
+				return false
+			}
+		}
+		return true
+	}
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM onSubmit="return checkForm(this)">
+Please enter all requested information:<BR>
+First Name:<INPUT TYPE="text" NAME="firstName"><BR>
+Last Name:<INPUT TYPE="text" NAME="lastName"><BR>
+Rank:<INPUT TYPE="text" NAME="rank"><BR>
+Serial Number:<INPUT TYPE="text" NAME="serialNumber"><BR>
+<INPUT TYPE="submit">
+</FORM>
+</BODY>
+</HTML>

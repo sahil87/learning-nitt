@@ -1,0 +1,85 @@
+<!--//A script to keep on running PHP queries and displaying their results on the same window-->
+<!--//To edit the make_table function to enable it to edit the fields using the edit and delete buttons-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Running MySQL scripts in PHP</title></head>
+<body>
+
+
+<br/>Enter the query you want to run -
+<form id="f2" action="/prog/query6.php" method="post">
+<textarea name="querystring" rows="5" cols="60">select * from students
+</textarea>
+<br/><INPUT type="submit" />
+</form>
+
+<SCRIPT type=text/javascript>
+	function hide(obj)
+	{
+		if(obj.style.display=="none")obj.style.display="";
+		else obj.style.display="none";
+	}
+	function enable(row,col)
+	{
+//		alert("row="+row+"col="+col);
+		for( i=row*col+row+1;i<row*col+col+row+1 ;i++ )
+		{
+//			alert("i="+document.f1.elements[i].name);
+			document.f1.elements[i].disabled=false;//abled();//="";
+		}		
+		cellname=eval("rollno"+row);
+		document.f1.cellname.enabled=on;
+		cellname=eval("name"+row);
+		document.f1.cellname.enabled=on;
+		cellname=eval("department"+row);
+		document.f1.cellname.enabled=on;
+		cellname=eval("age"+row);
+		document.f1.cellname.enabled=on;
+		cellname=eval("sex"+row);
+		document.f1.cellname.enabled=on;
+	}
+</SCRIPT>
+<form id=f1 metbod='POST' action=''>
+<table cellpadding=2 cellspacing=1>
+<tr bgcolor=#d3dce3>
+<td colspan=3></td><td>rollno</td><td>name</td><td>department</td><td>age</td><td>sex</td>
+</tr>
+<tr id="dat0" bgcolor=#e5e5e5>
+
+	<td><input type=checkbox id=check0 /></td>
+	<td><a id=0 href="javascript:enable(0,5)"><img src="b_edit.png" border=0 alt="edit"></a></td>
+
+	<td><a href=""><img src="b_drop.png" border=0 alt="delete"/></a></td>
+	<td>ic10438</td>
+	<td>Sahil Ahuja</td>
+	<td>I.C.E.</td>
+	<td>18</td>
+	<td>M</td>
+
+</tr>
+<tr id="inp0" style="display:none" bgcolor=#e5e5e5>
+
+	<td colspan='3'></td><td id=rollnoic10438 display="none"><input type="text" disabled value="ic10438" size=7 name=rollno0 /></td><td id=nameSahil Ahuja display="none"><input type="text" disabled value="Sahil Ahuja" size=15 name=name0 /></td><td id=departmentI.C.E. display="none"><input type="text" disabled value="I.C.E." size=15 name=department0 /></td><td id=age18 display="none"><input type="text" disabled value="18" size=4 name=age0 /></td><td id=sexM display="none"><input type="text" disabled value="M" size=1 name=sex0 /></td>
+</tr>
+<tr id="dat1" bgcolor=#d5d5d5>
+
+	<td><input type=checkbox id=check1 /></td>
+	<td><a id=1 href="javascript:enable(1,5)"><img src="b_edit.png" border=0 alt="edit"></a></td>
+	<td><a href=""><img src="b_drop.png" border=0 alt="delete"/></a></td>
+	<td>ic10417</td>
+
+	<td>Kosstubh Kaura</td>
+	<td>I.C.E.</td>
+	<td>19</td>
+	<td>M</td>
+</tr>
+<tr id="inp1" style="display:none" bgcolor=#d5d5d5>
+
+	<td colspan='3'></td><td id=rollnoic10417 display="none"><input type="text" disabled value="ic10417" size=7 name=rollno1 /></td><td id=nameKosstubh Kaura display="none"><input type="text" disabled value="Kosstubh Kaura" size=15 name=name1 /></td><td id=departmentI.C.E. display="none"><input type="text" disabled value="I.C.E." size=15 name=department1 /></td><td id=age19 display="none"><input type="text" disabled value="19" size=4 name=age1 /></td><td id=sexM display="none"><input type="text" disabled value="M" size=1 name=sex1 /></td>
+
+</tr>
+</table>
+</form>
+</body>
+</html>

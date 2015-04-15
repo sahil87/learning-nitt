@@ -1,0 +1,15 @@
+echo " "
+if grep "$1" /etc/passwd
+then
+echo " "
+#chsh -s /bin/Rsh $1 
+chsh -s /sbin/getout $1 
+passwd --stdin $1 < pas1.t
+smbpasswd -s $1 < pas1.s
+smbpasswd -d $1
+echo " "
+else
+echo " "
+echo "Rollno not found"
+echo " "
+fi

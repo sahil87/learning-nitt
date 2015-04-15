@@ -1,0 +1,77 @@
+./addstaff "Venkatalakshmi V (Supdt/CSG) others vlakshmi
+./addstaff  "Vijayalakshmi (STENO)" others viji
+./addstaff  "Ashok B (CO/D PD)" others ash
+./addstaff  "Ramani B (JrAsst/M)" others bramani
+./addstaff  "Chitra R S (Supdt/M)" others chitra
+./addstaff  "Kumarasamy (Supdt/M)" others ksamy
+./addstaff  "Maran (M)" others maran
+./addstaff  "Mariyyappan P (M)" others mari
+./addstaff  "Kalavathi N (M)" others nkala
+./addstaff  "Raja Rethnam V (M)" others rethnam
+./addstaff  "Selvaraj S (M)" others ssraj
+./addstaff  "Lalitha V (M)" others vlali
+./addstaff  "Ramachandran S (M)" others 164
+./addstaff  "Mohan V (M)" others mohan
+./addstaff  "Krishnamurthy R (Asst/M)" others krishr
+./addstaff "Vishnubahadur L (M)" others vish
+./addstaff  "Mohan V (M)" others mohan
+./addstaff "Baby S (Supdt/M)" others sbaby
+./addstaff  "Chitra A R (D)" others architra
+./addstaff  "Balasubramanian (D)" others balas
+./addstaff  "Chitra A (D)" others chitraa
+./addstaff  "Dharmarajan (D)" others dhar
+./addstaff  "Govindaraju P (D)" others govind
+./addstaff  "Muthumani V (COE)" others abhi
+./addstaff  "Benjamin Y (COE)" others  benjamin
+./addstaff  "Lalitha (COE)" others lalitha
+./addstaff  "Lalitha N (COE)" others nlalitha
+./addstaff  "Rajkumar S (COE)" others  rajk
+./addstaff  "Ramesan Nangandiyil (COE)" others ramesan
+./addstaff "Chindambaram N (Supdt/COE)" others nchidam
+./addstaff  "Shanmuganathan B (TO/CCS)" others bshan
+./addstaff "Jeeva Stella (Mech/ECE)" others jeeva
+./addstaff "Karpullarasi (JE/ECE)" others karpu
+./addstaff "Kannan N (Mech/CHL)" others nkannan
+./addstaff "Pandiyaraja (Mech/CHL)" others pandiya
+./addstaff "Sheela R (CEESAT)" others sheela
+./addstaff "Mugunthan G (TA/CEESAT)" others mugu
+./addstaff "Karuppasami C (TA/EEE)" others karuppa
+./addstaff "Manimaran V (Mech/EEE)" others vmani
+./addstaff "Saravanan S (Asst/EEE)" others ssara
+./addstaff "Roshan Babu C N (Mech/MEC)" others roshan
+./addstaff "Kasimayan T (JE/EMC)" others kasi
+./addstaff "Nallathambi C (Mech/EMC)" others thambi
+./addstaff "Visvanathan M (JE/ICE)" others visva
+./addstaff "Balasubramaniyan G (AE/EM)" others gbala
+./addstaff "Saravanakumar G (TA/EM)" others gkumar
+./addstaff "Saravanan R (TA/EM)" others rsaro
+./addstaff "Karunaimani (Typist/MET)" others karuna
+./addstaff "Selvaraj V (Mech/MET)" others vselva
+./addstaff "Surulibabu K (TA/PRO)" others suruli
+./addstaff "Rajendran V (Mech/PRO)" others vraj
+./addstaff "Narayanasami R (FM/PRO)" others rnsami
+./addstaff "Ananthi K (DM/ARC)" others ananthi
+./addstaff "Mercy S (DM/ARC)" others mercy
+./addstaff "Tharabai G (Supdt/ARC)" others thara
+./addstaff "Sampath Kumar S (Mech/ICE)" others sampath
+./addstaff "Chitra A (JrAsst/CSE)" others achitra
+./addstaff "Usha M (CSE)" others  musha
+./addstaff "Uma maheswari S (TA/CSE)" others suma
+./addstaff "Lakshmi narayanan L (CSE)" others lln
+./addstaff "Boopathy P (TA/CIV)" others boopathy
+./addstaff "Natarajan C (DM/CIV)" others natada
+./addstaff "Pandiarajan S (TA/CIV)" others pandi
+./addstaff "Selvaraj G (Mech/CIV)" others selvaraj
+./addstaff "Sundaresan R (TA/CIV)" others sundar
+./addstaff "Senthil Kumar G (M)" others gskumar
+./addstaff "Mounissamy P (LA/LIB)" others mouni
+./addstaff "Ramani (LIB)" others ramani
+./addstaff "Thamizhavel G (CA/LIB)" others tamilvel
+
+
+#./addstaff "Ingersal (Supdt/EM)" others 119
+#./addstaff "Rajadurai M (Typist/PRO)" others 165
+#./addstaff  "Varalakshmi R (COE)" others  177
+#./addstaff  "Vanitha G (M)" others gvani
+#./addstaff  "Shanmugam K (M)" others shan
+#./addstaff  "Ashokraj (Jr/M)"  others araj

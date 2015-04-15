@@ -1,0 +1,33 @@
+GROUP=ug
+USRHOME=/ug
+
+if [ -s $4 ]
+then 
+	echo "usage : addother \"<name>\" <passwd> <department> <login-name>"
+	echo
+	exit
+fi 
+
+/usr/sbin/adduser -g $GROUP -c "$1" -d $USRHOME/$3/$4 -p allpass -m $4 
+
+if test "$?" != "0"
+then
+	echo "addother unsuccessful"
+	exit
+fi
+echo Test123 > test1
+cat test1 >> ttpwd1
+echo test1
+echo ttpwd1
+/usr/bin/passwd --stdin $4 < test1
+#/usr/bin/passwd $4
+/usr/sbin/edquota -p ugqouta $4
+/usr/bin/chage -m -1 -M 1200 -W -1 $4
+#echo   "export HISTFILE=/var/tmp/log/$4" >> $USRHOME/$3/$4/.bash_logout
+#chattr +i $USRHOME/$3/$4/.bash_logout
+#touch /var/tmp/log/$4
+#chown $4 /var/tmp/log/$4
+#chmod 600 /var/tmp/log/$4
+#chattr +a /var/tmp/log/$4
+#/usr/bin/smbadduser $4:$4 
+cat ttpwd1 | /usr/bin/smbpasswd -a -s $4 

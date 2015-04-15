@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<?fileVersion 3.0.0?>
+<ManagedProjectBuildInfo>
+    <project id='cppgui.cdt.managedbuild.target.gnu.so.197762997' name='Shared Library (Gnu)' projectType='cdt.managedbuild.target.gnu.so'>
+      <configuration id='cdt.managedbuild.config.gnu.so.debug.174184558' name='Debug' description='' parent='cdt.managedbuild.config.gnu.so.debug' artifactName='cppgui' errorParsers='org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser' artifactExtension='so' cleanCommand='rm -rf' prebuildStep='qmake'>
+        <toolChain superClass='cdt.managedbuild.toolchain.gnu.so.debug' id='cdt.managedbuild.toolchain.gnu.so.debug.2143735857' name='GCC Tool Chain'>
+          <tool superClass='cdt.managedbuild.tool.gnu.c.compiler.so.debug' id='cdt.managedbuild.tool.gnu.c.compiler.so.debug.1948228578' name='GCC C Compiler'/>
+          <tool superClass='cdt.managedbuild.tool.gnu.cpp.compiler.so.debug' id='cdt.managedbuild.tool.gnu.cpp.compiler.so.debug.762158220' name='GCC C++ Compiler'/>
+          <tool superClass='cdt.managedbuild.tool.gnu.c.linker.so.debug' id='cdt.managedbuild.tool.gnu.c.linker.so.debug.798131067' name='GCC C Linker'/>
+          <tool superClass='cdt.managedbuild.tool.gnu.cpp.linker.so.debug' id='cdt.managedbuild.tool.gnu.cpp.linker.so.debug.753018572' name='GCC C++ Linker'/>
+          <tool superClass='cdt.managedbuild.tool.gnu.assembler.so.debug' id='cdt.managedbuild.tool.gnu.assembler.so.debug.1881162961' name='GCC Assembler'>
+            <option superClass='gnu.both.asm.option.include.paths' id='gnu.both.asm.option.include.paths.1024207490' valueType='includePath'>
+              <listOptionValue value='/usr/lib/qt-3.3/include' builtIn='false'/>
+</option>
+</tool>
+          <macros/>
+</toolChain>
+        <resourceConfiguration id='cdt.managedbuild.config.gnu.so.debug.174184558.1147850228' name='hello.cpp' exclude='false' resourcePath='/cppgui/hello.cpp' toolsToInvoke='org.eclipse.cdt.managedbuilder.ui.rcbs.1475341097' rcbsApplicability='override'>
+          <tool id='org.eclipse.cdt.managedbuilder.ui.rcbs.1475341097' name='Resource Custom Build Step' command='qmake' customBuildStep='true' announcement='Invoking: Resource Custom Build Step'>
+            <inputType id='org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1042991652' name='Resource Custom Build Step Input Type'>
+              <additionalInput paths='' kind='additionalinputdependency'/>
+</inputType>
+            <outputType id='org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.209751078' name='Resource Custom Build Step Output Type' outputNames='hello'/>
+</tool>
+</resourceConfiguration>
+</configuration>
+      <configuration id='cdt.managedbuild.config.gnu.so.release.1215884104' name='Release' description='' parent='cdt.managedbuild.config.gnu.so.release' artifactName='cppgui' errorParsers='org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser' artifactExtension='so' cleanCommand='rm -rf'>
+        <toolChain superClass='cdt.managedbuild.toolchain.gnu.so.release' id='cdt.managedbuild.toolchain.gnu.so.release.1330072540' name='GCC Tool Chain'>
+          <tool superClass='cdt.managedbuild.tool.gnu.c.compiler.so.release' id='cdt.managedbuild.tool.gnu.c.compiler.so.release.1066325048' name='GCC C Compiler'/>
+          <tool superClass='cdt.managedbuild.tool.gnu.cpp.compiler.so.release' id='cdt.managedbuild.tool.gnu.cpp.compiler.so.release.1279849517' name='GCC C++ Compiler'/>
+          <tool superClass='cdt.managedbuild.tool.gnu.c.linker.so.release' id='cdt.managedbuild.tool.gnu.c.linker.so.release.1359843233' name='GCC C Linker'/>
+          <tool superClass='cdt.managedbuild.tool.gnu.cpp.linker.so.release' id='cdt.managedbuild.tool.gnu.cpp.linker.so.release.521639371' name='GCC C++ Linker'/>
+          <tool superClass='cdt.managedbuild.tool.gnu.assembler.so.release' id='cdt.managedbuild.tool.gnu.assembler.so.release.1865047436' name='GCC Assembler'/>
+          <macros/>
+</toolChain>
+</configuration>
+      <macros/>
+</project>
+</ManagedProjectBuildInfo>

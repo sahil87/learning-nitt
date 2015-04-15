@@ -1,0 +1,18 @@
+<!--//A script to keep on running PHP queries and displaying their results on the same window-->
+<!--//To edit the make_table function to enable it to edit the fields using the edit and delete buttons-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>Running MySQL scripts in PHP</title></head>
+<body>
+
+
+<br/>Enter the query you want to run -
+<form id="f2" action="/prog/query6.php" method="post">
+<textarea name="querystring" rows="5" cols="60">Write your mysql script here</textarea>
+<br/><INPUT type="submit" />
+</form>
+
+
+</body>
+</html>

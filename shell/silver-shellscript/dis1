@@ -1,0 +1,15 @@
+echo "Enter rollno \c"
+read roll
+echo " "
+if grep "$roll" /etc/passwd
+then
+echo " "
+chsh -s /sbin/nologin $roll 
+smbpasswd -d $roll
+echo " "
+else
+echo " "
+echo "Rollno not found"
+echo " "
+fi
+$0

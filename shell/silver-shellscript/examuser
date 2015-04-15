@@ -1,0 +1,20 @@
+#! /bin/bash
+if [ -s $1 ]
+then 
+	echo "usage : ./examuser <passwd>"
+	echo
+	exit
+fi 
+cd /pg/mca
+echo $1 > .exp
+for name in ca
+do
+echo $name
+/usr/bin/passwd --stdin $name < .exp
+#rm -rf *
+#rm -rf .*
+#pwd
+#cd ..
+done
+echo 'Passwd is :' `more /pg/mca/.exp`
+rm /pg/mca/.exp
